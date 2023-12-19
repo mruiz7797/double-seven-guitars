@@ -1,39 +1,37 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Double Seven Guitars - Milestone Project 1
 
-Welcome,
+This website is created for the business Double Seven Guitars which is primarily offering guitar repair and maintenance work at an affordable price. 
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Table of contents
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+1. UX Design
+   - Consumer Goals
+   - Business Goals 
+   - User Stories 
+   - Design Choices
+   - Wireframes 
 
-## Codeanywhere Reminders
+2. Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
 
-`python3 -m http.server`
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## UX Design
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+### Consumer Goals 
+The main goal of the consumer is to find a business that can repair their broken guitar or offer routine maintenance. Priorities for the consumer will be quality of repairs, costs of repairs and timescale of repairs.
 
-`http_server`
+Consumers want a method to understand: 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- If the repair or maintenance they require is offered by the business (does it offer what I want?)
+- How to make contact and request a repair (purchase – what actions can I take now? How do I contact someone?) 
+- The location of the repairs (is it feasible? – does it offer what I want?)
+- If the business has prior experience with said repairs (quality – does it look credible and trustworthy?)
+- If the business has been positively reviewed (quality – does it look credible and trustworthy?)
+- The cost of any potential repairs 
+- The timescale
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+### Business Goals
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- To increase the number of customers deciding to contact for repair 
+- To make it easy for customers to access and request repairs
 
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
