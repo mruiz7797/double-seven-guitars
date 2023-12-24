@@ -1,0 +1,53 @@
+
+/* --------------------------------------------Global styles */
+body {
+
+}
+
+/* --------------------------------------------Navbar */
+.navbar-bg-color {
+    background-color: #B1B8C5;
+}
+
+.navbar {
+    border-bottom: solid #1E202D thick;
+}
+
+.navbar a {
+    color: #1E202D;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: -10px;
+}
+
+
+/* --------------------------------------------Menu */
+.menu {
+    margin-right: 30px;
+}
+
+/* --------------------------------------------Hero image and primary info */
+
+.primary-info-text {
+    margin-top: 30px;
+}
+
+
+/* --------------------------------------------Code attempts that might be used later */
+
+/* -------------------for creating a circle around the logo */
+/* .logo-container {
+    border-radius: 50%;
+    background-color: #B1B8C5;
+    width: 80px;
+    height: 80px;
+    margin-left: 30px;
+    /* border-style: solid;
+    border-width: medium;
+    border-color: rgb(115, 252, 115); */
+
+/* 
+.logo-container img {
+    margin-left: -30px;
+} */
+
