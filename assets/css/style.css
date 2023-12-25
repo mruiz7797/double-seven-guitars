@@ -20,16 +20,32 @@ body {
     margin-bottom: -10px;
 }
 
-
-/* --------------------------------------------Menu */
 .menu {
     margin-right: 30px;
+}
+
+.logo-container {
+    margin-left: 20px;
+    margin-bottom: 10px;
 }
 
 /* --------------------------------------------Hero image and primary info */
 
 .primary-info-text {
     margin-top: 30px;
+   
+}
+
+ @media only screen and (max-width: 992px) and (min-width: 768px) {
+    .primary-info-text {
+        margin: 0 auto;
+    }
+ }
+/* --------------------------------------------Footer */
+
+footer {
+    background-color: #B1B8C5;
+    height: 10vh;
 }
 
 
@@ -51,3 +67,6 @@ body {
     margin-left: -30px;
 } */
 
+.tester {
+    border: solid green;
+}
