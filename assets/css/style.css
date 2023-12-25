@@ -45,7 +45,17 @@ body {
 
 footer {
     background-color: #B1B8C5;
-    height: 10vh;
+}
+
+
+
+.fb-icon {
+    padding: 20px;
+    font-size: 30px;
+}
+
+.contact-list {
+    padding-top: 10px;
 }
 
 
