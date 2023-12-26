@@ -31,16 +31,20 @@ body {
 
 /* --------------------------------------------Hero image and primary info */
 
-.primary-info-text {
-    margin-top: 30px;
-   
-}
-
  @media only screen and (max-width: 992px) and (min-width: 768px) {
     .primary-info-text {
         margin: 0 auto;
     }
  }
+
+/* --------------------------------------------Hero image and primary info */
+
+@media only screen and (max-width: 576px) {
+    .testimonials {
+        display: none;
+    }
+}
+
 /* --------------------------------------------Footer */
 
 footer {
