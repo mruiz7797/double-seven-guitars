@@ -31,13 +31,40 @@ body {
 
 /* --------------------------------------------Hero image and primary info */
 
- @media only screen and (max-width: 992px) and (min-width: 768px) {
-    .primary-info-text {
+@media only screen and (max-width: 992px) {
+    #hero-larger-screens {
+        display: none;
+    }
+}
+
+/* Border for medium and larger screens */
+@media only screen and (min-width: 768px) {
+    .primary-info-wrapper {
         margin: 0 auto;
+        border: solid;
+        background-color: white;
+        border-radius: 2%;
+    }
+}
+
+/* Overlap with hero image on larger screens */
+@media only screen and (min-width: 992px) {
+    .primary-info-wrapper{
+      margin-top: -150px;
+    }
+
+    #hero-smaller-screens {
+        display: none;
+    }
+}
+
+ @media only screen and (max-width: 992px) and (min-width: 768px) {
+    .primary-info-wrapper {
+        margin-top: 20px;
     }
  }
 
-/* --------------------------------------------Hero image and primary info */
+/* --------------------------------------------Testimonials*/
 
 @media only screen and (max-width: 576px) {
     .testimonials {
@@ -60,27 +87,4 @@ footer {
 
 .contact-list {
     padding-top: 10px;
-}
-
-
-/* --------------------------------------------Code attempts that might be used later */
-
-/* -------------------for creating a circle around the logo */
-/* .logo-container {
-    border-radius: 50%;
-    background-color: #B1B8C5;
-    width: 80px;
-    height: 80px;
-    margin-left: 30px;
-    /* border-style: solid;
-    border-width: medium;
-    border-color: rgb(115, 252, 115); */
-
-/* 
-.logo-container img {
-    margin-left: -30px;
-} */
-
-.tester {
-    border: solid green;
 }
