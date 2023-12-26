@@ -33,7 +33,7 @@ Consumers want a method to understand:
 ### Business Goals
 
 - To increase the number of customers deciding to contact for repair 
-- To make it easy for customers to access and request repairs
+- To encourage first-time visitors to make a request for services
 
 ### User Stories
 
@@ -75,5 +75,20 @@ Images provided by the business.
 
 ### Features
 
+This website has three pages: a home page (index.html), a services page and a contact page. The homepage contains some information that is also in the services and contact page. The rationale for this is that business to consumer websites tend to sees customers making a "purchase on their first visit. In this contest, a purchase constitutes making a request for a repair via one of the three contact channels (phone, email, website form). To encourage contact, contact details are made easily available on every page. All users share the common requirement of understand what services are offered so there is some overlap of content between the homepage and the services page in case some users are too impatient to find the services page and to really encourage first-visit purchasing. 
 
+#### Common features on all pages
+
+- A navigation bar that includes the double seven logo on the left. This navigates to the home page. This is common practice and consequently provides a good user experience for the user. The right of the navigation bar features the three links to all pages, with the active page underlined to ensure users know which page they are on, avoiding confusing navigation, and allow for good user experience. The navigation bar collapses to a toggler with a burger icon on small screens to avoid the navigation bar looking cluttered. The burger icon is common practice and users will expect this. 
+
+- A footer that is styled consistently with the navigation bar. The footer contains a link to facebook using the facebook icon to ensure a clear and uncluttered look. The icon is what users expect to see and knows where it leads them. On the right of the navigation bar, there is the phone number and email address (to ensure as few steps as possible between the desire to have a repair and finding the details to make the request).
+
+- If scrolling is required, then the top of the next section is always visible at all screen sizes so the user knows that there is more content available.
+
+#### Home page
+- Hero Image - a clean, professional looking image of a guitar with the double seven logo overlayed clearly. The background image is dark and contrasts well with the logo to allow for a clean look. 
+- Primary info - there is a small descriptive section that describes what the business is. 
+- Services section - a description of the type of services offered, a link to the full services page and video of a repair. 
+- Testimonials section - positive reviews of the business only displayed on screens of medium size or bigger. 
+- On large or extra-large screens, the hero image and primary info are presented side by side.
 
