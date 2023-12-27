@@ -12,6 +12,7 @@ font-family: 'Montserrat Alternates', sans-serif;
     
 }
 
+
 /* --------------------------------------------Navbar */
 .navbar-bg-color {
     background-color: #B1B8C5;
@@ -58,6 +59,7 @@ footer {
 .banner {
     background-color: #373B4E;
     margin-top: 20px;
+    margin-top: 50px;
     height: 100px;
 }
 
@@ -72,6 +74,10 @@ footer {
 /* --------------------------------------------Hero image and primary info */
 .primary-info-wrapper {
     background-color: white;
+    margin: 0 auto;
+    border: solid;
+    background-color: white;
+    border-radius: 2%;
     margin-top: 20px;
 }
 
