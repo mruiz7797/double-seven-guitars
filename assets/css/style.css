@@ -42,7 +42,6 @@ footer {
     background-color: #B1B8C5;
 }
 
-
 .fb-icon {
     padding: 20px;
     font-size: 30px;
@@ -70,14 +69,12 @@ footer {
 .primary-info-wrapper {
     background-color: white;
     margin-top: 20px;
-    
 }
 
 @media only screen and (max-width: 992px) {
     #hero-larger-screens {
         display: none;
     }
-
 }
 
 /* Overlap with hero image on larger screens */
@@ -92,34 +89,31 @@ footer {
     }
 }
 
-    /* --------------------------------------------Home page services*/
+/* --------------------------------------------Home page services*/
 
-    .services-info {
-    border: solid;
-    border-color: rgba(126, 18, 18, 1);
-    background-color: white;
-    border-width: 10px;
-    width: 400px;
-    margin: 2px;
-    /* margin-left: -100px; */
+.services-info {
+border: solid;
+border-color: rgba(126, 18, 18, 1);
+background-color: white;
+border-width: 10px;
+width: 400px;
+margin: 2px;
+}
 
-    }
-
-    .services-image {
-    height:380px;
-    width:400px;
-    background-image: url(../images/electric-guitar.jpeg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    overflow: hidden;
-    border-radius: 2%;
-    margin: 5px;
-
-    }
+.services-image {
+height:380px;
+width:400px;
+background-image: url(../images/electric-guitar.jpeg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+overflow: hidden;
+border-radius: 2%;
+margin: 5px;
+}
 
 
-    /* --------------------------------------------Home page testimonials*/
+/* --------------------------------------------Home page testimonials*/
 
 @media only screen and (max-width: 576px) {
     .testimonials {
