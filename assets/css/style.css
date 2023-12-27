@@ -63,20 +63,17 @@ footer {
 
 
 /* --------------------------------------------Hero image and primary info */
+.primary-info-wrapper {
+    margin: 0 auto;
+    border: solid;
+    background-color: white;
+    border-radius: 2%;
+    margin-top: 20px;
+}
 
 @media only screen and (max-width: 992px) {
     #hero-larger-screens {
         display: none;
-    }
-}
-
-/* Border for medium and larger screens */
-@media only screen and (min-width: 768px) {
-    .primary-info-wrapper {
-        margin: 0 auto;
-        border: solid;
-        background-color: white;
-        border-radius: 2%;
     }
 }
 
@@ -90,12 +87,6 @@ footer {
         display: none;
     }
 }
-
- @media only screen and (max-width: 992px) and (min-width: 768px) {
-    .primary-info-wrapper {
-        margin-top: 20px;
-    }
- }
 
  /* --------------------------------------------Home page services*/
 
