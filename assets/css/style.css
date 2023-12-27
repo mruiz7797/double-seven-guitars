@@ -4,6 +4,7 @@ body {
 
 }
 
+
 /* --------------------------------------------Navbar */
 .navbar-bg-color {
     background-color: #B1B8C5;
@@ -28,6 +29,38 @@ body {
     margin-left: 20px;
     margin-bottom: 10px;
 }
+
+/* --------------------------------------------Footer */
+
+footer {
+    background-color: #B1B8C5;
+}
+
+
+
+.fb-icon {
+    padding: 20px;
+    font-size: 30px;
+}
+
+.contact-list {
+    padding-top: 10px;
+}
+
+/* --------------------------------------------Banners */
+.banner {
+    background-color: #373B4E;
+    margin-top: 50px;
+    height: 100px;
+}
+
+.banner-heading {
+    margin: 0 auto;
+    color: #B1B8C5;
+    font-weight: 100;
+    padding: 20px;
+}
+
 
 /* --------------------------------------------Hero image and primary info */
 
@@ -64,7 +97,10 @@ body {
     }
  }
 
-/* --------------------------------------------Testimonials*/
+ /* --------------------------------------------Home page services*/
+
+
+ /* --------------------------------------------Home page testimonials*/
 
 @media only screen and (max-width: 576px) {
     .testimonials {
@@ -72,19 +108,3 @@ body {
     }
 }
 
-/* --------------------------------------------Footer */
-
-footer {
-    background-color: #B1B8C5;
-}
-
-
-
-.fb-icon {
-    padding: 20px;
-    font-size: 30px;
-}
-
-.contact-list {
-    padding-top: 10px;
-}
