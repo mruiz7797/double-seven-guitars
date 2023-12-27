@@ -1,7 +1,15 @@
 
 /* --------------------------------------------Global styles */
 body {
+font-family: 'Montserrat Alternates', sans-serif;
+}
 
+.rounded-border {
+    border: solid;
+    border-radius: 2%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
 }
 
 /* --------------------------------------------Navbar */
@@ -29,49 +37,6 @@ body {
     margin-bottom: 10px;
 }
 
-/* --------------------------------------------Hero image and primary info */
-
-@media only screen and (max-width: 992px) {
-    #hero-larger-screens {
-        display: none;
-    }
-}
-
-/* Border for medium and larger screens */
-@media only screen and (min-width: 768px) {
-    .primary-info-wrapper {
-        margin: 0 auto;
-        border: solid;
-        background-color: white;
-        border-radius: 2%;
-    }
-}
-
-/* Overlap with hero image on larger screens */
-@media only screen and (min-width: 992px) {
-    .primary-info-wrapper{
-      margin-top: -150px;
-    }
-
-    #hero-smaller-screens {
-        display: none;
-    }
-}
-
- @media only screen and (max-width: 992px) and (min-width: 768px) {
-    .primary-info-wrapper {
-        margin-top: 20px;
-    }
- }
-
-/* --------------------------------------------Testimonials*/
-
-@media only screen and (max-width: 576px) {
-    .testimonials {
-        display: none;
-    }
-}
-
 /* --------------------------------------------Footer */
 
 footer {
@@ -88,3 +53,75 @@ footer {
 .contact-list {
     padding-top: 10px;
 }
+
+/* --------------------------------------------Banners */
+.banner {
+    background-color: #373B4E;
+    margin-top: 20px;
+    height: 100px;
+}
+
+.banner-heading {
+    margin: 0 auto;
+    color: #B1B8C5;
+    font-weight: 100;
+    padding: 20px;
+}
+
+
+/* --------------------------------------------Hero image and primary info */
+.primary-info-wrapper {
+    background-color: white;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 992px) {
+    #hero-larger-screens {
+        display: none;
+    }
+}
+
+/* Overlap with hero image on larger screens */
+@media only screen and (min-width: 992px) {
+    .primary-info-wrapper{
+      margin-top: -150px;
+    }
+
+    #hero-smaller-screens {
+        display: none;
+    }
+}
+
+ /* --------------------------------------------Home page services*/
+
+ .services-info {
+    border-color: rgba(126, 18, 18, 1);
+    background-color: white;
+    border-width: 10px;
+    width: 400px;
+    margin: 5px;
+    /* margin-left: -100px; */
+
+ }
+
+ .services-image {
+    height:380px;
+    width:400px;
+    background-image: url(../images/electric-guitar.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 2%;
+    margin: 5px;
+
+ }
+
+ /* --------------------------------------------Home page testimonials*/
+
+@media only screen and (max-width: 576px) {
+    .testimonials {
+        display: none;
+    }
+}
+
