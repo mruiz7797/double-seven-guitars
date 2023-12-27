@@ -57,7 +57,7 @@ body {
     .banner {
         background-color: #373B4E;
         margin-top: 20px;
-        height: 100px;
+        height: 150px;
     }
     
     .banner-heading {
@@ -71,18 +71,21 @@ body {
     .primary-info-wrapper {
         background-color: white;
         margin-top: 20px;
+        
     }
     
     @media only screen and (max-width: 992px) {
         #hero-larger-screens {
             display: none;
         }
+
     }
     
     /* Overlap with hero image on larger screens */
     @media only screen and (min-width: 992px) {
         .primary-info-wrapper{
           margin-top: -150px;
+          width: 500px;
         }
     
         #hero-smaller-screens {
