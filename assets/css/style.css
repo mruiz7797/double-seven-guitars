@@ -11,6 +11,14 @@ body {
     box-shadow: 0 0 10px;
 }
 
+.red-button {
+    background-color: rgba(126, 18, 18, 1);
+    color:white;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: white;
+}
+
 /* --------------------------------------------Navbar */
 .navbar-bg-color {
     /* background-color: #B1B8C5; */
@@ -97,13 +105,7 @@ footer {
     }
 }
 
-.get-in-touch-button {
-    background-color: rgba(126, 18, 18, 1);
-    color:white;
-    padding: 10px;
-    border-radius: 10px;
-    border-color: white;
-}
+
 /* --------------------------------------------Home page services*/
 
 .services-info {
@@ -150,6 +152,26 @@ margin: 5px;
     color: #ebf2f2;
 }
 
-    
-    
-    
+ /* --------------------------------------------Contact page form*/   
+ input[type=text],
+ input[type=email] {
+    width: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    display: "block";
+ }
+
+ input[type=textarea] {
+    width: 500px;
+    height: 200px;
+    padding: 12px 20px;
+    margin: 8px 8px;
+ }
+
+ .form-wrapper {
+    margin: 10px;
+    /* border: solid;
+    border-radius: 10px; */
+    padding: 30px;
+ }
