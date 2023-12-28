@@ -1,7 +1,7 @@
 
 /* --------------------------------------------Global styles */
 body {
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Dosis', sans-serif;
     }
     
 .rounded-border {
@@ -13,18 +13,17 @@ body {
 
 /* --------------------------------------------Navbar */
 .navbar-bg-color {
-    background-color: #B1B8C5;
-}
-
-.navbar {
-    border-bottom: solid #1E202D thick;
+    /* background-color: #B1B8C5; */
+    background-color: #373B4E;
 }
 
 .navbar a {
-    color: #1E202D;
+    /* color: #1E202D; */
+    color: #B1B8C5;
     font-weight: 600;
     font-size: 15px;
     margin-bottom: -10px;
+    text-transform: uppercase;
 }
 
 .menu {
@@ -32,14 +31,18 @@ body {
 }
 
 .logo-container {
-    margin-left: 20px;
-    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
 }
+
+
 
 /* --------------------------------------------Footer */
 
 footer {
-    background-color: #B1B8C5;
+    /* background-color: #B1B8C5; */
+    background-color: #373B4E;
+    color: #B1B8C5;
 }
 
 .fb-icon {
@@ -48,7 +51,7 @@ footer {
 }
 
 .contact-list {
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 /* --------------------------------------------Banners */
@@ -69,6 +72,10 @@ footer {
 .primary-info-wrapper {
     background-color: white;
     margin-top: 20px;
+}
+
+.primary-info-wrapper h1 {
+    text-transform: uppercase;
 }
 
 @media only screen and (max-width: 992px) {
