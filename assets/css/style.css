@@ -4,7 +4,7 @@ body {
     font-family: 'Dosis', sans-serif;
     }
     
-.rounded-border {
+.rounded-border-shadow {
     border-radius: 10px;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -18,6 +18,11 @@ body {
     border-radius: 10px;
     border-color: white;
 }
+
+.green-bg-color {
+    background-color: rgba(21, 135, 153, 0.6);
+}
+
 
 /* --------------------------------------------Navbar */
 .navbar-bg-color {
@@ -150,6 +155,11 @@ margin: 5px;
 
 .testimonials figcaption {
     color: #ebf2f2;
+}
+
+/* --------------------------------------------Contact page */  
+.contact-boxes {
+    
 }
 
  /* --------------------------------------------Contact page form*/   
