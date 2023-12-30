@@ -65,7 +65,7 @@ Consumers want a method to understand:
 
 This color pallette is inspired by the business logo which features red, black and grey.
 
-![Colour Palette for the website- red and black inspired](assets/images/Colour%20Palette.png)
+![Colour Palette for the website- red and black inspired](/assets/images/Colour%20Pallette.png)
 
 #### Typography TBD
 
