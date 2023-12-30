@@ -4,11 +4,11 @@ body {
     font-family: 'Dosis', sans-serif;
     }
     
-.rounded-border-shadow {
+.rounded-border {
     border-radius: 10px;
     padding-top: 30px;
     padding-bottom: 30px;
-    box-shadow: 0 0 10px;
+
 }
 
 .red-button {
@@ -19,8 +19,8 @@ body {
     border-color: white;
 }
 
-.green-bg-color {
-    background-color: rgba(21, 135, 153, 0.6);
+.blue-bg-color {
+    background-color: #8fa7e3;
 }
 
 
@@ -86,6 +86,7 @@ footer {
 .primary-info-wrapper {
     background-color: white;
     margin-top: 20px;
+    box-shadow: 0 0 10px;
 }
 
 .primary-info-wrapper h1 {
@@ -117,7 +118,7 @@ footer {
 border: solid;
 border-color: rgba(126, 18, 18, 1);
 background-color: white;
-border-width: 10px;
+border-width: 6px;
 width: 400px;
 margin: 2px;
 }
@@ -149,11 +150,13 @@ margin: 5px;
     padding-left: 20px;
     padding-right: 20px;
     margin: 20px;
-    background-color: rgba(21, 135, 153, 0.6);
-    color: #ebf2f2;
+    box-shadow: none;
+    color: #122452;
+    background-color: #8fa7e3;
+
 }
 .testimonials figcaption {
-    color: #ebf2f2;
+    color: #122452;
 }
 
 /* --------------------------------------------Contact page */  
@@ -165,15 +168,15 @@ margin: 5px;
 }
 .contact-boxes {
     margin: 5px;
-    max-width: 250px;
-    min-width: 250px;
+    max-width: 270px;
+    min-width: 270px;
     height: 250px;
-    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: #B1B8C5;
+    border:solid;
+    border-color:  #B1B8C5;;    
 }
 
 .contact-boxes i {
@@ -186,7 +189,7 @@ margin: 5px;
 }
 
 .contact-boxes a {
-    color: #B1B8C5;
+    color: black;
 }
 
  /* --------------------------------------------Contact page form*/   
@@ -212,7 +215,9 @@ margin: 5px;
     padding: 30px;
     max-width: 768px;
     margin: 0 auto;
+    box-shadow: 0 0 10px;
  }
+
 
 .checkbox {
     margin-right: 10px;
