@@ -159,7 +159,9 @@ margin: 5px;
 
 /* --------------------------------------------Contact page */  
 .contact-boxes {
-    
+    max-width: 250px;
+    height: 250px;
+    border-radius: 10px;
 }
 
  /* --------------------------------------------Contact page form*/   
