@@ -3,14 +3,13 @@
 body {
     font-family: 'Dosis', sans-serif;
     }
-    
+/* To create a consistent look across all boxes */
 .rounded-border {
     border-radius: 10px;
     padding-top: 30px;
     padding-bottom: 30px;
-
 }
-
+/* To create a consistent theme for buttons or highlighted text */
 .red-button {
     background-color: rgba(126, 18, 18, 1);
     color:white;
@@ -23,32 +22,18 @@ body {
     background-color: #8fa7e3;
 }
 
-
 /* --------------------------------------------Navbar */
 .navbar-bg-color {
-    /* background-color: #B1B8C5; */
     background-color: #373B4E;
 }
 
 .navbar a {
-    /* color: #1E202D; */
     color: #B1B8C5;
     font-weight: 600;
     font-size: 15px;
     margin-bottom: -10px;
     text-transform: uppercase;
 }
-
-.menu {
-    margin-right: 30px;
-}
-
-.logo-container {
-    padding: 10px;
-    border-radius: 10px;
-}
-
-
 
 /* --------------------------------------------Footer */
 
@@ -63,9 +48,7 @@ footer {
     font-size: 30px;
 }
 
-.contact-list {
-    padding-top: 20px;
-}
+
 
 /* --------------------------------------------Banners */
 .banner {
@@ -75,7 +58,6 @@ footer {
 }
 
 .banner-heading {
-    margin: 0 auto;
     color: #B1B8C5;
     font-weight: 100;
     padding: 20px;
@@ -137,7 +119,6 @@ margin: 5px;
 
 
 /* --------------------------------------------Home page testimonials*/
-
 @media only screen and (max-width: 576px) {
     .testimonials {
         display: none;
