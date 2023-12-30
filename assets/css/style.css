@@ -152,16 +152,41 @@ margin: 5px;
     background-color: rgba(21, 135, 153, 0.6);
     color: #ebf2f2;
 }
-
 .testimonials figcaption {
     color: #ebf2f2;
 }
 
 /* --------------------------------------------Contact page */  
+.contact-box-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
 .contact-boxes {
+    margin: 5px;
     max-width: 250px;
+    min-width: 250px;
     height: 250px;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #B1B8C5;
+}
+
+.contact-boxes i {
+    font-size: 30px;
+    margin-top:10px;
+}
+.contact-boxes p {
+    font-size: 18px;
+    margin-top:10px;
+}
+
+.contact-boxes a {
+    color: #B1B8C5;
 }
 
  /* --------------------------------------------Contact page form*/   
