@@ -6,8 +6,8 @@ body {
 /* To create a consistent look across all boxes */
 .rounded-border {
     border-radius: 10px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    /* padding-top: 30px;
+    padding-bottom: 30px; */
 }
 /* To create a consistent theme for buttons or highlighted text */
 .red-button {
@@ -17,6 +17,10 @@ body {
     border-radius: 10px;
     border-color: white;
 }
+
+.media-overflow-hidden{
+    overflow: hidden; 
+  }
 
 .blue-bg-color {
     background-color: #8fa7e3;
@@ -212,7 +216,7 @@ margin: 5px;
  /* --------------------------------------------Services page table*/   
 
 table {
-max-width: 600px;
+
 margin-left: auto;
 margin-right: auto;
 margin-top: 0;
@@ -234,6 +238,18 @@ th, td {
     max-width: 400px;
     padding: 10PX;
     margin-top: 40px;
-    margin-bottom: 40px;
-    
+    margin-bottom: 40px;  
   }
+
+  #services-banner {
+    background-image: url(/assets/images/services_banner.jpeg);
+    background-repeat: none;
+    background-size: cover;
+    height: 200px;
+  }
+  video {
+    box-sizing:
+  }
+
+
+
