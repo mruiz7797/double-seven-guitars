@@ -157,7 +157,7 @@ margin: 5px;
     align-items: center;
     flex-direction: column;
     border:solid;
-    border-color:  #B1B8C5;;    
+    border-color:  #B1B8C5;   
 }
 
 .contact-boxes i {
@@ -208,3 +208,32 @@ margin: 5px;
     max-width: 236px;
     margin: 0 auto;
 }
+
+ /* --------------------------------------------Services page table*/   
+
+table {
+max-width: 600px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 0;
+}
+
+th, td {
+    border-bottom: 1px solid;
+    padding: 20px;
+  }
+
+  tr:hover {
+    background-color: rgba(126, 18, 18, 1);
+    color: white;
+}
+
+  .table-wrapper {
+    border:solid;
+    border-color:  #B1B8C5;   
+    max-width: 400px;
+    padding: 10PX;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+  }
