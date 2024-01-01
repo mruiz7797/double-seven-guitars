@@ -70,10 +70,27 @@ footer {
 
 
 /* --------------------------------------------Hero image and primary info */
+
+.hero-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-title {
+    position:absolute;
+    width: 90%;
+    margin-top: 10px;
+
+}
+
 .primary-info-wrapper {
     background-color: white;
     margin-top: 20px;
     box-shadow: 0 0 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
 }
 
 .primary-info-wrapper h1 {
@@ -89,8 +106,8 @@ footer {
 /* Overlap with hero image on larger screens */
 @media only screen and (min-width: 992px) {
     .primary-info-wrapper{
-        margin-top: -150px;
         width: 800px;
+      
     }
 
     #hero-smaller-screens {
