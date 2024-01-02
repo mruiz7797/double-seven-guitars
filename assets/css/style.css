@@ -53,11 +53,17 @@ footer {
 footer a{
     color:inherit;
 }
+
 .fb-icon {
     padding: 20px;
     font-size: 30px;
 }
-
+/* For the very smallest screens, smaller font to stop contact details being pushed underneath */
+@media only screen and (max-width: 335px) {
+    footer{
+      font-size: smaller;  
+    }
+}
 
 
 /* --------------------------------------------Banners */
@@ -115,7 +121,6 @@ footer a{
 @media only screen and (min-width: 992px) {
     .primary-info-wrapper{
         width: 800px;
-      
     }
 
     #hero-smaller-screens {
