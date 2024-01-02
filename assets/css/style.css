@@ -222,7 +222,7 @@ margin: 2px;
  input[type=text],
  input[type=email] {
     width: 200px;
-    padding: 12px 20px;
+    padding: 5px;
     margin: 8px 0;
     /* This includes the padding and border in the total size of the box */
     box-sizing: border-box;
@@ -232,7 +232,7 @@ margin: 2px;
  input[type=textarea] {
     max-width: 768px;
     height: 200px;
-    padding: 12px 20px;
+    padding: 5px;
     margin: 8px 8px;
  }
 
@@ -253,7 +253,13 @@ margin: 2px;
     max-width: 236px;
     margin: 0 auto;
 }
-
+#description {
+    height: 150px;
+    margin: 5px auto 15px;
+}
+label {
+    display:block;
+}
  /* --------------------------------------------Services page table*/   
 
 table {
