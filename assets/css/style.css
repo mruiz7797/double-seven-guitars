@@ -149,25 +149,39 @@ border: solid;
 border-color: rgba(126, 18, 18, 1);
 background-color: white;
 border-width: 6px;
-width: 400px;
-/* To ensure the image still looks good on even the smallest phones */
-min-width: 300px;
 margin: 2px;
+padding-left: 40px;
+padding-right: 65px;
+}
+.services-info h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
 }
 
-.services-image {
-height:380px;
-width:400px;
-/* To ensure the image still looks good on even the smallest phones */
-min-height:300px;
-min-width:300px;
-background-image: url(../images/electric-guitar.jpeg);
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-overflow: hidden;
-border-radius: 2%;
-margin: 2px;
+#services-list {
+    font-size:18px
+}
+
+#services-list i {
+    font-size: 40px;
+    color: rgba(126, 18, 18, 1);
+    align-self: center;
+    margin-right: 20px;
+}
+
+.list-items {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 470px) {
+    #services-list i {
+        font-size: 30px;
+    }
+    .services-info {
+        padding-left: 10px;
+        padding-right: 30px;
+    }
 }
 
 /* --------------------------------------------Home page testimonials*/
