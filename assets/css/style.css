@@ -216,6 +216,7 @@ margin: 2px;
 
 .contact-boxes a {
     color: black;
+    text-decoration: none;
 }
 
  /* --------------------------------------------Contact page form*/   
