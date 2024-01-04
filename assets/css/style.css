@@ -2,6 +2,7 @@
 /* --------------------------------------------Global styles */
 body {
     font-family: 'Dosis', sans-serif;
+    font-size: 18px;
     }
 /* To create a consistent look across all boxes */
 .rounded-border {
