@@ -187,10 +187,12 @@ padding-right: 65px;
     padding-left: 20px;
     padding-right: 20px;
     margin: 10px auto;
-    box-shadow: none;
     color: #122452;
     width: 400px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
 }
 
 .quote-wrapper {
