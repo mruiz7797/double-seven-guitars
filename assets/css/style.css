@@ -22,19 +22,19 @@ body {
     overflow: hidden; 
   }
 
+a {
+    text-decoration: none;
+}
+/* --------------------------------------------Colours */
 .blue-bg-color {
     background-color: #8fa7e3;
 }
 
-a {
-    text-decoration: none;
-}
-
-/* --------------------------------------------Navbar */
-.navbar-bg-color {
+.dgrey-bg-color {
     background-color: #373B4E;
 }
 
+/* --------------------------------------------Navbar */
 .navbar a {
     color: #B1B8C5;
     font-weight: 600;
@@ -46,10 +46,9 @@ a {
 /* --------------------------------------------Footer */
 
 footer {
-    /* background-color: #B1B8C5; */
-    background-color: #373B4E;
     color: #B1B8C5;
 }
+
 footer a{
     color:inherit;
 }
@@ -68,7 +67,6 @@ footer a{
 
 /* --------------------------------------------Banners */
 .banner {
-    background-color: #373B4E;
     margin-top: 20px;
     height: 150px;
     margin-bottom: 30px;
@@ -191,10 +189,8 @@ padding-right: 65px;
     margin: 10px auto;
     box-shadow: none;
     color: #122452;
-    background-color: #8fa7e3;
     width: 400px;
     text-align: center;
-
 }
 
 .quote-wrapper {
