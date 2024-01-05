@@ -324,12 +324,22 @@ th, td {
     background-color:white;
   }
 
-  #services-banner {
-    background-image: url(/assets/images/services_banner.jpeg);
+  #services-hero {
+    background-image: url(../images/guitar-heads1.jpg);
     background-repeat: none;
     background-size: cover;
-    height: 200px;
   }
+
+@media only screen and (max-width: 576px) {
+    #services-hero {
+        height: 50vh;
+    }
+}
+@media only screen and (min-width:576px) {
+    #services-hero {
+        height: 75vh;
+    }
+}
 
 #fix-vid {
  width: 90%;
@@ -337,12 +347,6 @@ th, td {
  border: solid rgba(126, 18, 18, 1);
  border-radius: 10px;
 }
-/* 
-@media only screen and (min-width: 1033px) {
-    #fix-vid {
-    width: 820px;
-} */
-
 
 #fix-vid-wrapper {
     display: flex;
