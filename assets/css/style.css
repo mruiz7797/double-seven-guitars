@@ -301,6 +301,7 @@ table {
 margin-left: auto;
 margin-right: auto;
 margin-top: 0;
+background-color: white;
 }
 
 th, td {
@@ -320,8 +321,13 @@ th, td {
     padding: 10PX;
     margin-top: 40px;
     margin-bottom: 40px;  
+    background-color:white;
   }
-
+  .services-wrapper{
+    background-image:url(/assets/images/repair-7.jpeg);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+  }
   #services-banner {
     background-image: url(/assets/images/services_banner.jpeg);
     background-repeat: none;
