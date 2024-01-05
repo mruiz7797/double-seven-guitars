@@ -306,7 +306,7 @@ background-color: white;
 
 th, td {
     border-bottom: 1px solid;
-    padding: 20px;
+    padding: 5px;
   }
 
   tr:hover {
@@ -317,8 +317,9 @@ th, td {
   .table-wrapper {
     border:solid;
     border-color:  #B1B8C5;   
+    border-width: 5px;
     max-width: 400px;
-    padding: 10PX;
+    padding: 20px;
     margin-top: 40px;
     margin-bottom: 40px;  
     background-color:white;
