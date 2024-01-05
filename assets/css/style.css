@@ -294,7 +294,7 @@ padding-right: 65px;
 label {
     display:block;
 }
- /* --------------------------------------------Services page table*/   
+ /* --------------------------------------------Services page*/   
 
 table {
 
@@ -352,4 +352,16 @@ th, td {
 #fix-vid-wrapper {
     display: flex;
     justify-content: center;
+}
+
+.card {
+    width: 250px;
+    margin: 10px;
+}
+.images-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 30px auto;
 }
