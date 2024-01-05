@@ -244,6 +244,13 @@ padding-right: 65px;
 .contact-boxes a {
     color: inherit;
 }
+/* To make this button look more clickable than the other contact details */
+.fb-button {
+    border-bottom: solid;
+    border-right: solid;
+    border-color:#B1B8C5;
+    border-width: 6px;
+}
 
  /* --------------------------------------------Contact page form*/   
  input[type=text],
