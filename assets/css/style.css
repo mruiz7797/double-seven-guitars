@@ -88,11 +88,15 @@ footer a{
     justify-content: center;
 }
 
-.hero-title {
+.hero-title-horizontal {
     position:absolute;
     width: 90%;
     margin-top: 10px;
-
+}
+.hero-title-vertical {
+    position: absolute;
+    width: 50%;
+    margin-top: 30px;
 }
 
 .primary-info-wrapper {
@@ -111,18 +115,17 @@ footer a{
 }
 
 @media only screen and (max-width: 992px) {
-    #hero-larger-screens {
+    #hero-larger-screens, .hero-title-horizontal {
         display: none;
     }
 }
 
-/* Overlap with hero image on larger screens */
 @media only screen and (min-width: 992px) {
     .primary-info-wrapper{
         width: 800px;
     }
 
-    #hero-smaller-screens {
+    #hero-smaller-screens, .hero-title-vertical {
         display: none;
     }
 }
