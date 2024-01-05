@@ -323,11 +323,7 @@ th, td {
     margin-bottom: 40px;  
     background-color:white;
   }
-  .services-wrapper{
-    background-image:url(/assets/images/repair-7.jpeg);
-    background-repeat: no-repeat;
-    background-size: auto 100%;
-  }
+
   #services-banner {
     background-image: url(/assets/images/services_banner.jpeg);
     background-repeat: none;
