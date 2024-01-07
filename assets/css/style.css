@@ -86,6 +86,7 @@ footer a{
     position: relative;
     display: flex;
     justify-content: center;
+    max-height: 80vh;
 }
 
 .hero-title-horizontal {
@@ -95,8 +96,8 @@ footer a{
 }
 .hero-title-vertical {
     position: absolute;
-    width: 50%;
     margin-top: 30px;
+    max-height: 85%;
 }
 
 .primary-info-wrapper {
@@ -113,9 +114,15 @@ footer a{
 .primary-info-wrapper h1 {
     text-transform: uppercase;
 }
+/* To ensure information underneath hero is seen for scrollability and quick access to contact details page */
+#hero-larger-screens, 
+#hero-smaller-screens {
+    object-fit: cover;
+}
 
 @media only screen and (max-width: 992px) {
-    #hero-larger-screens, .hero-title-horizontal {
+    #hero-larger-screens, 
+    .hero-title-horizontal {
         display: none;
     }
 }
@@ -124,8 +131,8 @@ footer a{
     .primary-info-wrapper{
         width: 800px;
     }
-
-    #hero-smaller-screens, .hero-title-vertical {
+    #hero-smaller-screens, 
+    .hero-title-vertical {
         display: none;
     }
 }
