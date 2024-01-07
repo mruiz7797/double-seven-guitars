@@ -133,7 +133,7 @@ footer a{
     flex-direction: column;
     padding: 30px;
     width: 90%;
-    max-width: 800px;
+    max-width: 900px;
     margin-top: 30px;
 
 }
@@ -149,7 +149,7 @@ footer a{
     justify-content: center;
     margin: 0 auto;
     width: 100%;
-    max-width: 800px;
+    max-width: 900px;
 }
 
 .services-intro {
@@ -199,28 +199,32 @@ padding-right: 65px;
 }
 
 /* --------------------------------------------Home page testimonials*/
-.quote {
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: 10px auto;
-    color: #122452;
-    width: 400px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-}
-
 .quote-wrapper {
     max-width: 850px;
-    margin: 30px auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto 30px;
+}
+
+.quote {
+    color: #122452;
+    width: 400px;
+    height: 310px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 0 30px;
+    margin: 10px;
 }
 
 .testimonials figcaption {
     color: #122452;
+    margin: 0;
 }
 
 
