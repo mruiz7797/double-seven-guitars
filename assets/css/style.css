@@ -68,7 +68,7 @@ footer a{
 
 /* --------------------------------------------Banners */
 .banner {
-    margin-top: 20px;
+    margin-top: 30px;
     height: 150px;
     margin-bottom: 30px;
 }
@@ -80,7 +80,7 @@ footer a{
 }
 
 
-/* --------------------------------------------Hero image and primary info */
+/* --------------------------------------------Hero image-home page*/
 
 .hero-container {
     position: relative;
@@ -100,20 +100,6 @@ footer a{
     max-height: 85%;
 }
 
-.primary-info-wrapper {
-    background-color: white;
-    box-shadow: 0 0 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 30px;
-    width: 90%;
-    margin: 20px auto 10px;
-}
-
-.primary-info-wrapper h1 {
-    text-transform: uppercase;
-}
 /* To ensure information underneath hero is seen for scrollability and quick access to contact details page */
 #hero-larger-screens, 
 #hero-smaller-screens {
@@ -128,23 +114,42 @@ footer a{
 }
 
 @media only screen and (min-width: 992px) {
-    .primary-info-wrapper{
-        width: 800px;
-    }
     #hero-smaller-screens, 
     .hero-title-vertical {
         display: none;
     }
 }
 
+/* --------------------------------------------Primary info-home page*/
+
+.primary-info-container {
+    display: flex;
+    justify-content: center;
+
+}
+.primary-info-wrapper {
+    background-color: white;
+    box-shadow: 0 0 10px;
+    flex-direction: column;
+    padding: 30px;
+    width: 90%;
+    max-width: 800px;
+    margin-top: 30px;
+
+}
+
+.primary-info-wrapper h1 {
+    text-transform: uppercase;
+}
 
 /* --------------------------------------------Home page services*/
 .services-wrapper { 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 30px;
-    margin: 10px auto 10px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
 }
 
 .services-intro {
@@ -158,10 +163,10 @@ border: solid;
 border-color: rgba(126, 18, 18, 1);
 background-color: white;
 border-width: 6px;
-margin: 2px;
 padding-left: 40px;
 padding-right: 65px;
 }
+
 .services-info h2 {
     font-size: 30px;
     margin-bottom: 20px;
