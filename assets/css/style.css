@@ -362,6 +362,10 @@ th, td {
     }
 }
 
+#action-banner {
+    margin-bottom: 0;
+}
+
 #fix-vid {
  width: 90%;
  max-width: 820px;
