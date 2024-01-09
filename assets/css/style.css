@@ -203,6 +203,22 @@ padding-right: 65px;
 }
 
 /* --------------------------------------------Home page testimonials*/
+@media only screen and (max-width: 576px) {
+    #testimonials-md {
+        display: none;
+    }
+    .carousel {
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (min-width: 577px) {
+    .carousel {
+        display: none;
+    }
+    .quote {
+        width: 400px;
+    }
+}
 .quote-wrapper {
     max-width: 850px;
     display: flex;
@@ -215,7 +231,6 @@ padding-right: 65px;
 
 .quote {
     color: #122452;
-    width: 400px;
     min-height: 310px;
     text-align: center;
     display: flex;
@@ -231,7 +246,9 @@ padding-right: 65px;
     margin: 0;
 }
 
-
+.carousel-control-next {
+    z-index:21 ;
+}
 
 /* --------------------------------------------Contact page */  
 .contact-box-wrapper {
