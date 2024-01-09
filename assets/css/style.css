@@ -330,6 +330,20 @@ padding-right: 65px;
 label {
     display:block;
 }
+#address-wrapper {
+    margin: 30px auto 10px;
+}
+#address-wrapper p {
+    font-size: 24px;
+}
+
+#map-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+
  /* --------------------------------------------Services page*/   
 
 table {
