@@ -340,9 +340,17 @@ label {
 #map-wrapper {
     display: flex;
     justify-content: center;
-    margin: 20px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px;
+    max-width: 800px;
 }
 
+@media only screen and (max-width: 800px)
+{
+    #map-wrapper {
+        width: 90%;
+    }
+}
 
  /* --------------------------------------------Services page*/   
 
