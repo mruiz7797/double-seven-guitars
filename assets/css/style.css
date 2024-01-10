@@ -452,3 +452,25 @@ th, td {
     transition: transform 0.8s ease-in;
     box-shadow: inset 0px 0px 0 1000px rgba(0,0,0,0.5);
 }
+
+ /* --------------------------------------------Error page*/   
+ .error-page {
+    width: 100vw;
+    height: 90vh;
+    background-image: url(/assets/images/fire-guitar.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .error-msg {
+    color: white;
+    background-color: rgba(143, 167, 227, 0.9);
+    width: 80%;
+    max-width: 600px;
+    padding: 30px;
+    text-align: center;
+ }
