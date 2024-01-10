@@ -134,18 +134,20 @@ footer a{
 .primary-info-wrapper {
     background-color: white;
     box-shadow: 0 0 10px;
+    display: flex;
     flex-direction: column;
     padding: 30px;
     width: 90%;
     max-width: 900px;
     margin-top: 30px;
-
 }
 
 .primary-info-wrapper h1 {
     text-transform: uppercase;
 }
-
+.primary-info-wrapper a {
+    text-align: center;
+}
 /* --------------------------------------------Home page services*/
 .services-wrapper { 
     display: flex;
@@ -429,4 +431,11 @@ th, td {
     flex-wrap: wrap;
     max-width: 900px;
     margin: 30px auto;
+}
+
+.card:hover {
+    z-index: 1;
+    transform: scale(1.2);
+    transition: transform 0.8s ease-in-out;
+    background-color: #373B4E;
 }
