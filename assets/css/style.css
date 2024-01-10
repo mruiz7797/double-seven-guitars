@@ -423,8 +423,13 @@ th, td {
 .card {
     width: 250px;
     margin: 10px;
-    
+    -webkit-transition: transform 0.8s ease-out;    
+    -moz-transition: transform 0.8s ease-out;    
+    -ms-transition: transform 0.8s ease-out;    
+    -o-transition: transform 0.8s ease-out;    
+    transition: transform 0.8s ease-out;    
 }
+
 .images-wrapper {
     display: flex;
     justify-content: center;
@@ -433,9 +438,17 @@ th, td {
     margin: 30px auto;
 }
 
-.card:hover {
+.card:hover, .card:active {
     z-index: 1;
-    transform: scale(1.2);
-    transition: transform 0.8s ease-in-out;
-    background-color: #373B4E;
+    -webkit-transform: scale(1.1); 
+    -moz-transform: scale(1.1);     
+    -ms-transform: scale(1.1);   
+    -o-transform: scale(1.1);   
+    transform: scale(1.1);
+    -webkit-transition: transform 0.8s ease-in;
+    -moz-transition: transform 0.8s ease-in;  
+    -ms-transition: transform 0.8s ease-in;  
+    -o-transition: transform 0.8s ease-in;  
+    transition: transform 0.8s ease-in;
+    box-shadow: inset 0px 0px 0 1000px rgba(0,0,0,0.5);
 }
