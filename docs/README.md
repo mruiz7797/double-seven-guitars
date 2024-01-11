@@ -8,19 +8,23 @@ This website is created for the business Double Seven Guitars which is primarily
 
 1. [UX Design](#ux-design)
    - 
-   - [Consumer Goals](#consumer-goals)
-   - [Business Goals](#business-goals) 
-   - [User Stories](#user-stories) 
-   - [Design Choices](#design-choices)
-   - [Wireframes](#wireframes) 
+   - [Strategy - Consumer Goals](#strategy---consumer-goals)
+   - [Strategy - Business Goals](#strategy---business-goals) 
+   - [Strategy - User Stories](#strategy---user-stories) 
+   - [Strategy - Importance vs Viability](#strategy---importance-vs-viability)
+   - [Scope](#scope)
+   - [Structure](#structure)
+   - [Skeleton - Wireframes](#skeleton---wireframes)
+   - [Surface - Design Choices](#surface---design-choices)
 
-2. Features
+2. [Features](#features)
+   - 
 
 
 
 ## UX Design
 
-### Consumer Goals (strategy)
+### Strategy - Consumer Goals 
 The main goal of the consumer is to find a business that can repair their broken guitar or offer routine maintenance. 
 
 Consumers want a method to understand: 
@@ -32,12 +36,12 @@ Consumers want a method to understand:
 - If the business has been positively reviewed (quality – does it look credible and trustworthy?)
 - The cost of any potential repairs 
 
-### Business Goals (strategy)
+### Strategy - Business Goals 
 
 - To increase the number of customers deciding to contact for repair 
 - To encourage first-time visitors to make a request for services
 
-### User Stories (strategy)
+### Strategy - User Stories
 
 #### First time visitor (novice or experienced)
 - As a first time visitor, I want to see the prices clearly, so that I can decide if the repair is in my price range.
@@ -59,7 +63,7 @@ Consumers want a method to understand:
 #### Returning Visitor (second+ repair)
 - As a returning visitor, I want to check the contact details again to ensure I have them correct for a request of another repair. 
 
-### Importance vs Viability (strategy)
+### Strategy - Importance vs Viability 
 
 | Opportunity/Problem | Importance | Viability
 | ----------- | ----------- | ----------- 
@@ -88,9 +92,47 @@ By removing three of the opportunities the totals come closer and it has created
 
 ### Scope
 
+To be included in the website: 
+
+- consistent navigation menu and footer so information can be found easily
+- a primary information section to explain what the business does 
+- an explanation and list of services provided
+- some media showing what repairs have been done 
+- examples of good reviews
+- easily accessible contact information, maybe repeated, to increase the chance of "first-time-purchase" which in this case is a repair request
+- a variety of ways to make contact so customers can choose their preferred method
+- location information so customers know where to drop off and pick up guitars 
+
+### Structure
+
+All pages will contain navigation links to all pages and a footer with contact information.
+
+The website will contain three pages (plus a 404.html):
+
+- Home Page: this will contain the primary information, some information about services offered and some reviews.
+
+- Services Page: this will contain a list of services and corresponding prices and some videos and images of repairs completed by the business.
+
+- Contact Page: This will include phone number, email adress, facebook link, contact form and location information such as address and map. 
+
+### Skeleton - wireframes
+
+The wireframes below have been adapted slightly, with buttons being added at various places linking back to contact details and the list of services as well as a dropdown menu on the contact navigation link to make it easier to choose the type of contact or choose the location information.
+
+#### Home Page
+
+![Home Page Small Wireframe](./images/wireframes/small-home-page.jpg) ![Home Page Medium Wireframe](./images/wireframes/medium-home-page.jpg) ![Home Page Large Wireframe](./images/wireframes/large-home-page.jpg)
+
+#### Services Page
+
+![Small Services Page](./images/wireframes/small-services-page.jpg) ![Medium Services Page Wireframe](./images/wireframes/medium-services-pages.jpg) ![Large Services Page Wireframe](./images/wireframes/large-services-page.jpg)
+
+#### Contact Page
+
+![Contact Page Small and Medium Wireframe](./images/wireframes/small-medium-contact-page.jpg) ![Contact Page Large Wireframe](./images/wireframes/large-contact-page.jpg)
 
 
-### Design Choices 
+### Surface - Design Choices 
 
 #### Colour Scheme
 
@@ -104,7 +146,7 @@ This color pallette is inspired by the business logo which features red, black a
 
 Images provided by the business. 
 
-### Features
+## Features
 
 This website has three pages: a home page (index.html), a services page and a contact page. The homepage contains some information that is also in the services and contact page. The rationale for this is that business to consumer websites tend to sees customers making a "purchase on their first visit. In this contest, a purchase constitutes making a request for a repair via one of the three contact channels (phone, email, website form). To encourage contact, contact details are made easily available on every page. All users share the common requirement of understand what services are offered so there is some overlap of content between the homepage and the services page in case some users are too impatient to find the services page and to really encourage first-visit purchasing. 
 
@@ -122,20 +164,4 @@ This website has three pages: a home page (index.html), a services page and a co
 - Services section - a description of the type of services offered, a link to the full services page and video of a repair. 
 - Testimonials section - positive reviews of the business only displayed on screens of medium size or bigger. 
 - On large or extra-large screens, the hero image and primary info are presented side by side.
-
-### Wireframes
-
-#### Home Page
-
-![Home Page Small Wireframe](./images/wireframes/small-home-page.jpg) ![Home Page Medium Wireframe](./images/wireframes/medium-home-page.jpg) ![Home Page Large Wireframe](./images/wireframes/large-home-page.jpg)
-
-#### Services Page
-
-![Small Services Page](./images/wireframes/small-services-page.jpg) ![Medium Services Page Wireframe](./images/wireframes/medium-services-pages.jpg) ![Large Services Page Wireframe](./images/wireframes/large-services-page.jpg)
-
-#### Contact Page
-
-![Contact Page Small and Medium Wireframe](./images/wireframes/small-medium-contact-page.jpg) ![Contact Page Large Wireframe](./images/wireframes/large-contact-page.jpg)
-
-
 
