@@ -470,7 +470,7 @@ th, td {
  .error-page {
     width: 100vw;
     height: 90vh;
-    background-image: url(/assets/images/fire-guitar.jpg);
+    background-image: url(../images/fire-guitar.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
