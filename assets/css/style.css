@@ -40,12 +40,21 @@ a {
 }
 
 /* --------------------------------------------Navbar */
-.navbar a {
+.nav-link {
     color: #B1B8C5;
     font-weight: 600;
     font-size: 20px;
     margin-bottom: -10px;
     text-transform: uppercase;
+}
+
+.dropdown-menu,
+.dropdown-item {
+    background-color: #373B4E;
+    color: #B1B8C5;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
 }
 
 .active a {

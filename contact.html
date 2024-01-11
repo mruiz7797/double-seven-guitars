@@ -45,8 +45,13 @@
                         <li class="nav-item list-inline-item">
                             <a href="services.html" class="nav-link">Services</a>
                         </li>
-                        <li class="nav-item list-inline-item active">
-                            <a href="contact.html" class="nav-link">Contact</a>
+                        <li class="nav-item dropdown active">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Contact Us</a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="contact.html#contact-details">Contact Details</a></li>
+                              <li><a class="dropdown-item" href="contact.html#contact-form">Contact Form</a></li>
+                              <li><a class="dropdown-item" href="contact.html#location">Where to find us</a></li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
@@ -54,7 +59,7 @@
         </nav>
     </header>
 
-    <section class="mx-2">
+    <section id="contact-details" class="mx-2">
         <h1 class="text-center m-4">Get in touch!</h1>
         <div class="contact-box-wrapper">
             <div class="contact-boxes rounded-border">
@@ -75,7 +80,7 @@
         </div>
     </section>
 
-    <section class="container-fluid mb-5">
+    <section class="container-fluid mb-5" id="contact-form">
         <form method ="POST" action="https://formdump.codeinstitute.net/" target="">
             <h2 class="text-center m-4">Or, get in contact here: </h2>
             <div class="form-wrapper rounded-border mt-4">
@@ -109,7 +114,7 @@
             </div>
         </form>
     </section>
-    <section>
+    <section id="location">
         <div class="row banner dgrey-bg-color">
             <div class="col-12 banner-heading align-self-center text-center">
                 <h2>How to find us:</h2>

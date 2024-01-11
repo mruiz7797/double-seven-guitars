@@ -37,14 +37,19 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navdropdown">
                     <ul class="navbar-nav me-3">
-                        <li class="nav-item list-inline-item active">
+                        <li class="nav-item active">
                             <a href="index.html" class="nav-link">Home</a>
                         </li>
-                        <li class="nav-item list-inline-item">
+                        <li class="nav-item">
                             <a href="services.html" class="nav-link">Services</a>
                         </li>
-                        <li class="nav-item list-inline-item">
-                            <a href="contact.html" class="nav-link">Contact</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Contact Us</a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="contact.html#contact-details">Contact Details</a></li>
+                              <li><a class="dropdown-item" href="contact.html#contact-form">Contact Form</a></li>
+                              <li><a class="dropdown-item" href="contact.html#location">Where to find us</a></li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
@@ -113,7 +118,7 @@
                     </div>
                 </ul>
                 <p class="text-center">Click             
-                <a href="services.html">
+                <a href="services.html#service-list">
                     <button type="button" class="red-button py-1 px-2">here</button>
                 </a>for a full list of services.</p>
             </div>
