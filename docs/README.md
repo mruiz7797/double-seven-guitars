@@ -6,7 +6,8 @@ This website is created for the business Double Seven Guitars which is primarily
 
 ## Table of contents
 
-1. - [UX Design](#ux-design)
+1. [UX Design](#ux-design)
+   - 
    - [Consumer Goals](#consumer-goals)
    - [Business Goals](#business-goals) 
    - [User Stories](#user-stories) 
@@ -19,33 +20,30 @@ This website is created for the business Double Seven Guitars which is primarily
 
 ## UX Design
 
-### Consumer Goals 
-The main goal of the consumer is to find a business that can repair their broken guitar or offer routine maintenance. Priorities for the consumer will be quality of repairs, costs of repairs and timescale of repairs.
+### Consumer Goals (strategy)
+The main goal of the consumer is to find a business that can repair their broken guitar or offer routine maintenance. 
 
 Consumers want a method to understand: 
 
-- If the repair or maintenance they require is offered by the business (does it offer what I want?)
-- How to make contact and request a repair (purchase – what actions can I take now? How do I contact someone?) 
-- The location of the repairs (is it feasible? – does it offer what I want?)
+- If the repair or maintenance they require is offered by the business 
+- How to make contact and request a repair
+- The location of the repairs 
 - If the business has prior experience with said repairs (quality – does it look credible and trustworthy?)
 - If the business has been positively reviewed (quality – does it look credible and trustworthy?)
 - The cost of any potential repairs 
-- The timescale
 
-### Business Goals
+### Business Goals (strategy)
 
 - To increase the number of customers deciding to contact for repair 
 - To encourage first-time visitors to make a request for services
 
-### User Stories
+### User Stories (strategy)
 
 #### First time visitor (novice or experienced)
 - As a first time visitor, I want to see the prices clearly, so that I can decide if the repair is in my price range.
 - As a first time visitor, I want to understand how to get in contact, so that I can request a repair on my guitar.
 - As an first time visitor, I want to see the reviews of the business, so that I can see how well-known and liked they are and thus have confidence in the guitar repair (particularly important for experienced guitar owner). 
 - As a first time visitor, I want to check the location of the business, so that I can see if it is feasable to drop off/pick up my guitar.
-- As a first time visitor, I want to see if delivery is an option so that I can use the business even if I am not within a reasonable distance.
-
 
 #### Novice guitar owner (first time visit)
 - As a novice guitar owner (first time visit), I want to see a clear and easy-to-understand list of services, so that I can choose the appropriate service.
@@ -60,6 +58,37 @@ Consumers want a method to understand:
 
 #### Returning Visitor (second+ repair)
 - As a returning visitor, I want to check the contact details again to ensure I have them correct for a request of another repair. 
+
+### Importance vs Viability (strategy)
+
+| Opportunity/Problem | Importance | Viability
+| ----------- | ----------- | ----------- 
+| To provide information about the core purpose of the business | 5 | 5 |
+| To provide cost information | 5 | 5
+| To showcase owner's guitar playing ability | 2 | 5 |
+| To increase following to owner's band | 2 | 5
+| To showcase the types of repairs completed by the business | 4 | 5
+| To highlight good reviews of the business | 5 | 5
+| To provide contact details of the business | 5 | 5
+| To provide information about the owner's work history as a racecar mechanic | 3 | 5
+| Totals | 31 | 40
+
+As these totals are quite different, this has highlighted that not all of these should be implemented. 
+
+| Opportunity/Problem | Importance | Viability
+| ----------- | ----------- | ----------- 
+| To provide information about the core purpose of the business | 5 | 5 |
+| To provide cost information | 5 | 5
+| To showcase the types of repairs completed by the business | 4 | 5
+| To highlight good reviews of the business | 5 | 5
+| To provide contact details of the business | 5 | 5
+| Totals | 24 | 25
+
+By removing three of the opportunities the totals come closer and it has created a more manageable set of goals.
+
+### Scope
+
+
 
 ### Design Choices 
 
