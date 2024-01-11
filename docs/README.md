@@ -1,15 +1,17 @@
 # Double Seven Guitars - Milestone Project 1
 
-This website is created for the business Double Seven Guitars which is primarily offering guitar repair and maintenance work at an affordable price. the business currently has a website that lacks clarity, is cluttered and doesn't look professional. The business wants to invoke confidence in its customers when they are using the website. 
+This website is created for the business Double Seven Guitars which is primarily offering guitar repair and maintenance work at an affordable price. The main purpose of the website is to allow customers to find the business and make contact for repairs.
+
+![Am I Responsive Screenshot](./images/am-I-responsive.png)
 
 ## Table of contents
 
-1. UX Design
-   - Consumer Goals
-   - Business Goals 
-   - User Stories 
-   - Design Choices
-   - Wireframes 
+1. - [UX Design](#ux-design)
+   - [Consumer Goals](#consumer-goals)
+   - [Business Goals](#business-goals) 
+   - [User Stories](#user-stories) 
+   - [Design Choices](#design-choices)
+   - [Wireframes](#wireframes) 
 
 2. Features
 
@@ -91,4 +93,20 @@ This website has three pages: a home page (index.html), a services page and a co
 - Services section - a description of the type of services offered, a link to the full services page and video of a repair. 
 - Testimonials section - positive reviews of the business only displayed on screens of medium size or bigger. 
 - On large or extra-large screens, the hero image and primary info are presented side by side.
+
+### Wireframes
+
+#### Home Page
+
+![Home Page Small Wireframe](./images/wireframes/small-home-page.jpg) ![Home Page Medium Wireframe](./images/wireframes/medium-home-page.jpg) ![Home Page Large Wireframe](./images/wireframes/large-home-page.jpg)
+
+#### Services Page
+
+![Small Services Page](./images/wireframes/small-services-page.jpg) ![Medium Services Page Wireframe](./images/wireframes/medium-services-pages.jpg) ![Large Services Page Wireframe](./images/wireframes/large-services-page.jpg)
+
+#### Contact Page
+
+![Contact Page Small and Medium Wireframe](./images/wireframes/small-medium-contact-page.jpg) ![Contact Page Large Wireframe](./images/wireframes/large-contact-page.jpg)
+
+
 
