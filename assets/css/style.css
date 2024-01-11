@@ -48,6 +48,11 @@ a {
     text-transform: uppercase;
 }
 
+.active a {
+    color:antiquewhite;
+    font-size: x-large;
+}
+
 /* --------------------------------------------Footer */
 
 footer {
@@ -92,7 +97,6 @@ footer a{
     justify-content: center;
     max-height: 80vh;
 }
-
 .hero-title-horizontal {
     position:absolute;
     width: 90%;
@@ -474,3 +478,4 @@ th, td {
     padding: 30px;
     text-align: center;
  }
+
