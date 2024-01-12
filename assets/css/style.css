@@ -26,6 +26,7 @@ body {
 a {
     text-decoration: none;
 }
+
 /* --------------------------------------------Colours */
 .blue-bg-color {
     background-color: #8fa7e3;
@@ -349,7 +350,11 @@ label {
     margin: 30px auto 10px;
 }
 #address-wrapper p {
-    font-size: 24px;
+    font-size: 20px;
+}
+#address-wrapper i{
+    color: rgba(126, 18, 18, 1);
+    font-size: 35px;
 }
 
 #map-wrapper {
