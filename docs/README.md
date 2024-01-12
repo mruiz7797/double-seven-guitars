@@ -28,6 +28,8 @@ This website is created for the business Double Seven Guitars which is primarily
 
 5. Bugs
    -
+6. [Credits](#credits)
+   -
 
 
 
@@ -202,4 +204,111 @@ This website has three pages: a home page (index.html), a services page and a co
  - Google Maps API to embed a map using an iframe.
  - [Font Awesome](https://fontawesome.com/) was used for all icons used in my page.
 
+## Bug, Problems and Fixes
 
+### Getting the title image to overlap the hero image 
+
+Initially, I made the container position relative and the hero image and the title image position absolute. This worked to create the overlapping effect but then cuased an issue with the rest of the content. The remainder of the content was then being push up behind the hero image.
+
+First, I tried to put position: absolute; only on the title to leave the hero image a the default position: static;. This fixed the issue of other content being pushed under the hero image, and the title was in the correct place but was sitting behind the hero image. Changing the z-index didn't help. 
+
+After much trial and error, I realised that change the order of the html meant the if I put the title image first, it would appear on top of the hero. See code: 
+
+HTML: 
+```
+<div class="hero-container">
+   <img src="assets/images/logo-title.png" class="hero-title-horizontal" alt="Double Seven Guitars Title Horizontal">
+   <img src="assets/images/logo-title-vertical.png" class="hero-title-vertical" alt="Double Seven Guitars Title Vertical">
+   <!-- Full size image for smaller screens -->
+   <img src="assets/images/hero-for-mobile.jpg" class="img-fluid" id="hero-smaller-screens" alt="Part of a black guitar on a grey background">
+   <!-- Cropped image for larger screens -->
+   <img src="assets/images/hero-for-larger-screens.jpg" class="img-fluid" id="hero-larger-screens" alt="Part of a black guitar on a grey background">
+</div>
+```
+CSS: 
+```
+.hero-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    max-height: 80vh;
+}
+.hero-title-horizontal {
+    position:absolute;
+    width: 90%;
+    margin-top: 10px;
+}
+.hero-title-vertical {
+    position: absolute;
+    margin-top: 20px;
+    max-height: 85%;
+}
+```
+
+### Corners on boxes were appear as an ellipse shape rather than quarter circles: 
+
+Used [this](https://stackoverflow.com/questions/31617136/avoid-elliptical-shape-in-css-border-radius#:~:text=If%20the%20value%20exceeds%20half,pill%20shape%20on%20rectangular%20elements.&text=border%2Dradius%3A%2050%25%20will,your%20div%20is%20not%20square.) forum to gain better insight into border radius and changed my measures from relative (%) to absolute (px) and this resolved the issue.
+
+### Bootstrap Navbar toggler wasn't closing when the burger icon was pushed
+
+After a lot of very close checking of my code, I found [this](https://www.youtube.com/watch?v=ulM3-nRABgk&ab_channel=ByteGrad) video which pointed me to look at the JS popper that I had put in separately to the other bootstrap links. This extra popper was not needed and was causing this issue. Removing it solved the problem. 
+
+### Other small issues as mentioned in credits
+
+## Credits
+
+### Images
+
+Any images that are not listed below have been sourced from the business owner and used with their permission.
+
+- Hero Image on main page (with guitar brand name removed):  Photo by [Annie Spratt](https://unsplash.com/@anniespratt) on [Unsplash](https://unsplash.com/photos/a-black-electric-guitar-with-a-black-background-LtD7qn9k108)
+
+- Hero image on services page: Photo by [Diego Catto](https://unsplash.com/@diegocatto) on [Unsplash](https://unsplash.com/photos/grayscale-photography-of-guitar-heads-DI6ywiG5N0g)
+
+- Background image on 404.html: Photo by [Dark Rider](https://unsplash.com/photos/flaming-guitar-digital-wallpaper-JmVaNyemtN8) on [Unsplash](https://unsplash.com/photos/flaming-guitar-digital-wallpaper-JmVaNyemtN8)
+
+### Code 
+#### General
+- W3Schools for general help in understanding html and css
+- Bootstrap documentation for [Bootstrap v5.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/) for help in understanding the bootstrap classes and how to apply them. 
+- [CSS tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) website for general help in understanding css flexbox
+- For help with the readme, Kera Cudmore's [repository](https://github.com/kera-cudmore/readme-examples/blob/main/README.md#whats-a-readme) was used.
+
+#### Specific Code 
+- To overcome the issue with rounded corners taking ellipse shape (see bugs and code issue): [Stack Overflow](https://stackoverflow.com/questions/31617136/avoid-elliptical-shape-in-css-border-radius#:~:text=If%20the%20value%20exceeds%20half,pill%20shape%20on%20rectangular%20elements.&text=border%2Dradius%3A%2050%25%20will,your%20div%20is%20not%20square.)
+
+- To overcome the issue with the fieldset not overlapping the border in bootstrap: https://github.com/twbs/bootstrap/issues/32548. Code used:
+
+![Code from forum](./images/fieldset-fix.png)
+
+My code:
+```
+<fieldset class="border rounded-3 p-3">
+```
+- Used this [code](https://codepen.io/xjorye/pen/QgqeEx) to put checkboxes in front and not after labels. 
+
+-  I used the code from [this](https://stackoverflow.com/questions/9724035/how-can-one-create-an-overlay-in-css) stack overflow forum to create the opaque overlay on gallery cards. Code from forum:
+
+![Code used to create a css overlay](./images/css-overlay-code.png)
+
+My code: 
+```
+box-shadow: inset 0px 0px 0 1000px rgba(0,0,0,0.5);
+```
+
+- I used [this](https://stackoverflow.com/questions/54948759/css-animation-on-hover-snaps-back-to-default-size-after-hovering-away) Stack Overflow Forum To avoid snap back after transformation (see bugs and fixes). Code from forum: 
+
+![Specific code used to fix snap back](./images/snap-back-code.png)
+
+My code: 
+``` 
+   .card {
+    width: 250px;
+    margin: 10px;
+    -webkit-transition: transform 0.8s ease-out;    
+    -moz-transition: transform 0.8s ease-out;    
+    -ms-transition: transform 0.8s ease-out;    
+    -o-transition: transform 0.8s ease-out;    
+    transition: transform 0.8s ease-out;    
+    }    
+```
