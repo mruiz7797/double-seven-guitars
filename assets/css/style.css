@@ -77,7 +77,7 @@ footer a{
     font-size: 30px;
 }
 /* For the very smallest screens, smaller font to stop contact details being pushed underneath */
-@media only screen and (max-width: 335px) {
+@media only screen and (max-width: 360px) {
     footer{
       font-size: smaller;  
     }
