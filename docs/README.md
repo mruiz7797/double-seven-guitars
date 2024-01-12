@@ -6,7 +6,7 @@ This website is created for the business Double Seven Guitars which is primarily
 
 ## Table of contents
 
-1. [UX Design](#ux-design)
+1. [UX Design](#ux-design-1)
    - 
    - [Strategy - Consumer Goals](#strategy---consumer-goals)
    - [Strategy - Business Goals](#strategy---business-goals) 
@@ -19,6 +19,16 @@ This website is created for the business Double Seven Guitars which is primarily
 
 2. [Features](#features)
    - 
+
+3. [Tools and Technologies Used](#tools-and-technologies-used-1)
+   -
+
+4. Testing
+   -
+
+5. Bugs
+   -
+
 
 
 
@@ -44,24 +54,24 @@ Consumers want a method to understand:
 ### Strategy - User Stories
 
 #### First time visitor (novice or experienced)
-- As a first time visitor, I want to see the prices clearly, so that I can decide if the repair is in my price range.
-- As a first time visitor, I want to understand how to get in contact, so that I can request a repair on my guitar.
-- As an first time visitor, I want to see the reviews of the business, so that I can see how well-known and liked they are and thus have confidence in the guitar repair (particularly important for experienced guitar owner). 
-- As a first time visitor, I want to check the location of the business, so that I can see if it is feasable to drop off/pick up my guitar.
+- As a first time visitor, I want to see the prices clearly, so that I can decide if the repair is in my price range. (A) 
+- As a first time visitor, I want to understand how to get in contact, so that I can request a repair on my guitar. (B) 
+- As an first time visitor, I want to see the reviews of the business, so that I can see how well-known and liked they are and thus have confidence in the guitar repair (particularly important for experienced guitar owner). (C) 
+- As a first time visitor, I want to check the location of the business, so that I can see if it is feasable to drop off/pick up my guitar. 
 
 #### Novice guitar owner (first time visit)
-- As a novice guitar owner (first time visit), I want to see a clear and easy-to-understand list of services, so that I can choose the appropriate service.
-- As a novice guitar owner (first time visit), I want to be given information of about types of repairs and maintenance so that I can understand what services I might need.
+- As a novice guitar owner (first time visit), I want to see a clear and easy-to-understand list of services, so that I can choose the appropriate service. (E) 
+- As a novice guitar owner (first time visit), I want to be given information of about types of repairs and maintenance so that I can understand what services I might need. (F)
 
 
 #### Experienced guitar owner (first time visit)
 
-- As an experienced guitar owner (first time visit), I want to see whether more complicated repairs are available, so that I can decide if my problem can be resolved by the business. 
-- As an experienced guitar owner (first time visit), I want to see what types of repairs the business has experience in, so that I can trust my more complicated guitar repair with the business.
+- As an experienced guitar owner (first time visit), I want to see whether more complicated repairs are available, so that I can decide if my problem can be resolved by the business. (G)
+- As an experienced guitar owner (first time visit), I want to see what types of repairs the business has experience in, so that I can trust my more complicated guitar repair with the business. (H)
 
 
 #### Returning Visitor (second+ repair)
-- As a returning visitor, I want to check the contact details again to ensure I have them correct for a request of another repair. 
+- As a returning visitor, I want to check the contact details again to ensure I have them correct for a request of another repair. (I)
 
 ### Strategy - Importance vs Viability 
 
@@ -136,11 +146,28 @@ The wireframes below have been adapted slightly, with buttons being added at var
 
 #### Colour Scheme
 
-This color pallette is inspired by the business logo which features red, black and grey.
+The main business logo has been discarded (with owners permission): 
 
-![Colour Palette for the website- red and black inspired](/assets/images/Colour%20Pallette.png)
+![Original Double Seven Logo](./images/Logo-v2.png)
 
-#### Typography TBD
+But the 77 element has been retained as the logo for the website:
+
+![77 Logo](./images/77-no-background.png)
+
+This colour palette is inspired by the business logo which features red, black and grey. 
+
+![Colour Palette for the website- red and black inspired](./images/double-seven-colours.png)
+
+#### Typography 
+
+I have used google fonts and chosen "Dosis":
+
+![Dosis Font Example](./images/Dosis%20Font.png)
+
+For the typography used for the brand name I used www.picturetopeople.org to generate a more unique looking font as an image with a clear background: 
+
+![Font used for brand name on hero image](./images/hero-font.png)
+
 
 #### Imagery TBD
 
@@ -164,4 +191,15 @@ This website has three pages: a home page (index.html), a services page and a co
 - Services section - a description of the type of services offered, a link to the full services page and video of a repair. 
 - Testimonials section - positive reviews of the business only displayed on screens of medium size or bigger. 
 - On large or extra-large screens, the hero image and primary info are presented side by side.
+
+## Tools and Technologies Used
+ - Custom HTML and CSS were used throughout.
+ - [Boostrap v5.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/) was used in this project at various points for layout, form styling, creating cards and the navbar. I made some adaptations to the bootstrap styling at various points too. 
+ - CSS Flexbox was also used for layout purposes (outside of bootstrap) - the reason I used flexbox without bootstrap was that it felt lighter and more customisable in places in addition to giving me good practice of using both flexbox and bootstrap for layout. 
+ - [Picture to people](https://www.picturetopeople.org/text_generator/others/transparent/transparent-text-generator.html "Picture to People website") was used to generate the title with transparent background that overlays the hero image. 
+ - [Image Resizer](https://imageresizer.com "Image Resizer Website") was used to compress and resize images. 
+ - [Coolors](https://coolors.co/ "Coolors Website") was used to generate the colour pallete. 
+ - Google Maps API to embed a map using an iframe.
+ - [Font Awesome](https://fontawesome.com/) was used for all icons used in my page.
+
 
