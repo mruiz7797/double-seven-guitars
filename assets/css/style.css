@@ -64,7 +64,13 @@ a {
 
 footer {
     color: #B1B8C5;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding-right: 10px;
+    text-align: end;
 }
+
 
 footer a {
     color: inherit;
