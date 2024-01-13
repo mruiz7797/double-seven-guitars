@@ -14,13 +14,12 @@ body {
 /* To create a consistent theme for buttons or highlighted text */
 .red-button {
     background-color: rgba(126, 18, 18, 1);
+    color: white;
     padding: 10px;
     border-radius: 10px;
     border-color: white;
-}
-
-.red-button a{
-    color: white;
+    max-width: 200px;
+    margin: auto;
 }
 
 a {
@@ -191,8 +190,8 @@ footer a {
     max-width: 900px;
 }
 
-.services-wrapper button {
-    padding: 5px;
+.services-wrapper a {
+    padding: 5px 8px 8px 8px;
 }
 
 .services-intro {
