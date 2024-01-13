@@ -177,29 +177,13 @@ Images provided by the business.
 
 ## Features
 
-This website has three pages: a home page (index.html), a services page and a contact page. The homepage contains some information that is also in the services and contact page. The rationale for this is that business to consumer websites tend to sees customers making a "purchase on their first visit. In this contest, a purchase constitutes making a request for a repair via one of the three contact channels (phone, email, website form). To encourage contact, contact details are made easily available on every page. All users share the common requirement of understand what services are offered so there is some overlap of content between the homepage and the services page in case some users are too impatient to find the services page and to really encourage first-visit purchasing. 
-
-#### Common features on all pages
-
-- A navigation bar that includes the double seven logo on the left. This navigates to the home page. This is common practice and consequently provides a good user experience for the user. The right of the navigation bar features the three links to all pages, with the active page underlined to ensure users know which page they are on, avoiding confusing navigation, and allow for good user experience. The navigation bar collapses to a toggler with a burger icon on small screens to avoid the navigation bar looking cluttered. The burger icon is common practice and users will expect this. 
-
-- A footer that is styled consistently with the navigation bar. The footer contains a link to facebook using the facebook icon to ensure a clear and uncluttered look. The icon is what users expect to see and knows where it leads them. On the right of the navigation bar, there is the phone number and email address (to ensure as few steps as possible between the desire to have a repair and finding the details to make the request).
-
-- If scrolling is required, then the top of the next section is always visible at all screen sizes so the user knows that there is more content available.
-
-#### Home page
-- Hero Image - a clean, professional looking image of a guitar with the double seven logo overlayed clearly. The background image is dark and contrasts well with the logo to allow for a clean look. 
-- Primary info - there is a small descriptive section that describes what the business is. 
-- Services section - a description of the type of services offered, a link to the full services page and video of a repair. 
-- Testimonials section - positive reviews of the business only displayed on screens of medium size or bigger. 
-- On large or extra-large screens, the hero image and primary info are presented side by side.
-
 ## Tools and Technologies Used
  - Custom HTML and CSS were used throughout.
  - [Boostrap v5.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/) was used in this project at various points for layout, form styling, creating cards and the navbar. I made some adaptations to the bootstrap styling at various points too. 
  - CSS Flexbox was also used for layout purposes (outside of bootstrap) - the reason I used flexbox without bootstrap was that it felt lighter and more customisable in places in addition to giving me good practice of using both flexbox and bootstrap for layout. 
  - Git for version control
  - Github for saving and storing files
+ - VS Code for locally coding my project (to replace the use of online IDE such as gitpod or codeanywhere)
  - [Google Fonts](https://fonts.google.com/) for the font used in the website
  - Google developer tools to to test the wesbite for responsiveness and to fix bugs.
  - [Picture to people](https://www.picturetopeople.org/text_generator/others/transparent/transparent-text-generator.html "Picture to People website") was used to generate the title with transparent background that overlays the hero image. 
@@ -208,6 +192,7 @@ This website has three pages: a home page (index.html), a services page and a co
  - Google Maps API to embed a map using an iframe.
  - [Font Awesome](https://fontawesome.com/) was used for all icons used in my page.
  - [Am I Responsive?](https://www.google.com/search?q=am+i+responsive&rlz=1C1ONGR_en-GBGB985GB985&oq=am+i+respon&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDkyBggCEEUYQDIGCAMQRRhBMgYIBBBFGDwyBggFEEUYPNIBCDE4NTRqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8) to show how the website looks on different size screens and devices.
+ - WAVE chrome extension for accessibility testing
 
 ## Bugs, Problems and Fixes
 
@@ -261,6 +246,10 @@ After a lot of very close checking of my code, I found [this](https://www.youtub
 ### Other small issues as mentioned in credits
 
 ## Testing
+
+### Testing for accessibility 
+
+
 
 ## Credits
 
