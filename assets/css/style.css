@@ -277,6 +277,106 @@ footer a {
     margin: 0;
 }
 
+/* --------------------------------------------Services page*/
+
+table {
+    margin: auto 0;
+    background-color: white;
+}
+
+th,
+td {
+    border-bottom: 1px solid;
+    padding: 5px;
+}
+
+tr:hover {
+    background-color: rgba(126, 18, 18, 1);
+    color: white;
+}
+
+.table-wrapper {
+    border: solid #B1B8C5 5px;
+    max-width: 400px;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: white;
+}
+
+#services-hero {
+    background-image: url(../images/guitar-heads.jpg);
+    background-repeat: none;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 576px) {
+    #services-hero {
+        height: 50vh;
+    }
+}
+
+@media only screen and (min-width:576px) {
+    #services-hero {
+        height: 75vh;
+    }
+}
+
+#action-banner {
+    margin-bottom: 0;
+}
+
+#fix-vid {
+    width: 90%;
+    max-width: 820px;
+    box-shadow: 0 0 11px 4px;
+    border-radius: 10px;
+}
+
+#fix-vid-wrapper {
+    display: flex;
+    justify-content: center;
+    /* advice taken from https://stackoverflow.com/questions/38078957/can-we-define-min-margin-and-max-margin-max-padding-and-min-padding-in-css for impleneting min and max padding */
+    padding-top: min(10%, 50px);
+    padding-bottom: min(10%, 50px);
+}
+
+.card {
+    width: 250px;
+    margin: 10px;
+    /* credit: advice taken to ensure cards don't "snap back" after hover disappears https://stackoverflow.com/questions/54948759/css-animation-on-hover-snaps-back-to-default-size-after-hovering-away */
+    -webkit-transition: transform 0.8s ease-out;
+    -moz-transition: transform 0.8s ease-out;
+    -ms-transition: transform 0.8s ease-out;
+    -o-transition: transform 0.8s ease-out;
+    transition: transform 0.8s ease-out;
+}
+
+.images-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+.card:hover,
+.card:active {
+    z-index: 1;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: transform 0.8s ease-in;
+    -moz-transition: transform 0.8s ease-in;
+    -ms-transition: transform 0.8s ease-in;
+    -o-transition: transform 0.8s ease-in;
+    transition: transform 0.8s ease-in;
+    /* credit: code taken and adapted from: https://stackoverflow.com/questions/9724035/how-can-one-create-an-overlay-in-css */
+    box-shadow: inset 0px 0px 0 1000px rgba(0, 0, 0, 0.5);
+}
+
 /* --------------------------------------------Contact page */
 .contact-box-wrapper {
     display: flex;
@@ -386,106 +486,6 @@ label {
     #map-wrapper {
         width: 90%;
     }
-}
-
-/* --------------------------------------------Services page*/
-
-table {
-    margin: auto 0;
-    background-color: white;
-}
-
-th,
-td {
-    border-bottom: 1px solid;
-    padding: 5px;
-}
-
-tr:hover {
-    background-color: rgba(126, 18, 18, 1);
-    color: white;
-}
-
-.table-wrapper {
-    border: solid #B1B8C5 5px;
-    max-width: 400px;
-    padding: 20px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    background-color: white;
-}
-
-#services-hero {
-    background-image: url(../images/guitar-heads.jpg);
-    background-repeat: none;
-    background-size: cover;
-}
-
-@media only screen and (max-width: 576px) {
-    #services-hero {
-        height: 50vh;
-    }
-}
-
-@media only screen and (min-width:576px) {
-    #services-hero {
-        height: 75vh;
-    }
-}
-
-#action-banner {
-    margin-bottom: 0;
-}
-
-#fix-vid {
-    width: 90%;
-    max-width: 820px;
-    box-shadow: 0 0 11px 4px;
-    border-radius: 10px;
-}
-
-#fix-vid-wrapper {
-    display: flex;
-    justify-content: center;
-    /* advice taken from https://stackoverflow.com/questions/38078957/can-we-define-min-margin-and-max-margin-max-padding-and-min-padding-in-css for impleneting min and max padding */
-    padding-top: min(10%, 50px);
-    padding-bottom: min(10%, 50px);
-}
-
-.card {
-    width: 250px;
-    margin: 10px;
-    /* credit: advice taken to ensure cards don't "snap back" after hover disappears https://stackoverflow.com/questions/54948759/css-animation-on-hover-snaps-back-to-default-size-after-hovering-away */
-    -webkit-transition: transform 0.8s ease-out;
-    -moz-transition: transform 0.8s ease-out;
-    -ms-transition: transform 0.8s ease-out;
-    -o-transition: transform 0.8s ease-out;
-    transition: transform 0.8s ease-out;
-}
-
-.images-wrapper {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    max-width: 900px;
-    margin: 30px auto;
-}
-
-.card:hover,
-.card:active {
-    z-index: 1;
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    transform: scale(1.1);
-    -webkit-transition: transform 0.8s ease-in;
-    -moz-transition: transform 0.8s ease-in;
-    -ms-transition: transform 0.8s ease-in;
-    -o-transition: transform 0.8s ease-in;
-    transition: transform 0.8s ease-in;
-    /* credit: code taken and adapted from: https://stackoverflow.com/questions/9724035/how-can-one-create-an-overlay-in-css */
-    box-shadow: inset 0px 0px 0 1000px rgba(0, 0, 0, 0.5);
 }
 
 /* --------------------------------------------Error page*/
