@@ -26,7 +26,7 @@ This website is created for the business Double Seven Guitars which is primarily
 4. Testing
    -
 
-5. Bugs
+5. [Bugs, Problems and Fixes](#bugs-problems-and-fixes-1)
    -
 6. [Credits](#credits)
    -
@@ -198,13 +198,18 @@ This website has three pages: a home page (index.html), a services page and a co
  - Custom HTML and CSS were used throughout.
  - [Boostrap v5.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/) was used in this project at various points for layout, form styling, creating cards and the navbar. I made some adaptations to the bootstrap styling at various points too. 
  - CSS Flexbox was also used for layout purposes (outside of bootstrap) - the reason I used flexbox without bootstrap was that it felt lighter and more customisable in places in addition to giving me good practice of using both flexbox and bootstrap for layout. 
+ - Git for version control
+ - Github for saving and storing files
+ - [Google Fonts](https://fonts.google.com/) for the font used in the website
+ - Google developer tools to to test the wesbite for responsiveness and to fix bugs.
  - [Picture to people](https://www.picturetopeople.org/text_generator/others/transparent/transparent-text-generator.html "Picture to People website") was used to generate the title with transparent background that overlays the hero image. 
  - [Image Resizer](https://imageresizer.com "Image Resizer Website") was used to compress and resize images. 
  - [Coolors](https://coolors.co/ "Coolors Website") was used to generate the colour pallete. 
  - Google Maps API to embed a map using an iframe.
  - [Font Awesome](https://fontawesome.com/) was used for all icons used in my page.
+ - [Am I Responsive?](https://www.google.com/search?q=am+i+responsive&rlz=1C1ONGR_en-GBGB985GB985&oq=am+i+respon&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDkyBggCEEUYQDIGCAMQRRhBMgYIBBBFGDwyBggFEEUYPNIBCDE4NTRqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8) to show how the website looks on different size screens and devices.
 
-## Bug, Problems and Fixes
+## Bugs, Problems and Fixes
 
 ### Getting the title image to overlap the hero image 
 
@@ -245,7 +250,7 @@ CSS:
 }
 ```
 
-### Corners on boxes were appear as an ellipse shape rather than quarter circles: 
+### Corners on boxes were appearing as an ellipse shape rather than quarter circles: 
 
 Used [this](https://stackoverflow.com/questions/31617136/avoid-elliptical-shape-in-css-border-radius#:~:text=If%20the%20value%20exceeds%20half,pill%20shape%20on%20rectangular%20elements.&text=border%2Dradius%3A%2050%25%20will,your%20div%20is%20not%20square.) forum to gain better insight into border radius and changed my measures from relative (%) to absolute (px) and this resolved the issue.
 
@@ -254,6 +259,8 @@ Used [this](https://stackoverflow.com/questions/31617136/avoid-elliptical-shape-
 After a lot of very close checking of my code, I found [this](https://www.youtube.com/watch?v=ulM3-nRABgk&ab_channel=ByteGrad) video which pointed me to look at the JS popper that I had put in separately to the other bootstrap links. This extra popper was not needed and was causing this issue. Removing it solved the problem. 
 
 ### Other small issues as mentioned in credits
+
+## Testing
 
 ## Credits
 
