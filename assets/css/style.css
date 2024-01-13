@@ -1,27 +1,24 @@
-
 /* --------------------------------------------Global styles */
 body {
     font-family: 'Dosis', sans-serif;
     font-size: 18px;
-    }
+}
+
 /* To create a consistent look across all boxes */
 .rounded-border {
     border-radius: 10px;
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
 /* To create a consistent theme for buttons or highlighted text */
 .red-button {
     background-color: rgba(126, 18, 18, 1);
-    color:white;
+    color: white;
     padding: 10px;
     border-radius: 10px;
     border-color: white;
 }
-
-.media-overflow-hidden{
-    overflow: hidden; 
-  }
 
 a {
     text-decoration: none;
@@ -59,7 +56,7 @@ a {
 }
 
 .active a {
-    color:antiquewhite;
+    color: antiquewhite;
     font-size: x-large;
 }
 
@@ -69,18 +66,19 @@ footer {
     color: #B1B8C5;
 }
 
-footer a{
-    color:inherit;
+footer a {
+    color: inherit;
 }
 
 .fb-icon {
     padding: 20px;
     font-size: 30px;
 }
+
 /* For the very smallest screens, smaller font to stop contact details being pushed underneath */
 @media only screen and (max-width: 360px) {
-    footer{
-      font-size: smaller;  
+    footer {
+        font-size: smaller;
     }
 }
 
@@ -107,11 +105,13 @@ footer a{
     justify-content: center;
     max-height: 80vh;
 }
+
 .hero-title-horizontal {
-    position:absolute;
+    position: absolute;
     width: 90%;
     margin-top: 10px;
 }
+
 .hero-title-vertical {
     position: absolute;
     margin-top: 20px;
@@ -119,20 +119,22 @@ footer a{
 }
 
 /* To ensure information underneath hero is seen for scrollability and quick access to contact details page */
-#hero-larger-screens, 
+#hero-larger-screens,
 #hero-smaller-screens {
     object-fit: cover;
 }
 
 @media only screen and (max-width: 991px) {
-    #hero-larger-screens, 
+
+    #hero-larger-screens,
     .hero-title-horizontal {
         display: none;
     }
 }
 
 @media only screen and (min-width: 992px) {
-    #hero-smaller-screens, 
+
+    #hero-smaller-screens,
     .hero-title-vertical {
         display: none;
     }
@@ -145,6 +147,7 @@ footer a{
     justify-content: center;
 
 }
+
 .primary-info-wrapper {
     background-color: white;
     box-shadow: 0 0 10px;
@@ -159,11 +162,13 @@ footer a{
 .primary-info-wrapper h1 {
     text-transform: uppercase;
 }
+
 .primary-info-wrapper a {
     text-align: center;
 }
+
 /* --------------------------------------------Home page services*/
-.services-wrapper { 
+.services-wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -179,10 +184,10 @@ footer a{
 }
 
 .services-info {
-    border: solid;
-    border-color: rgba(126, 18, 18, 1);
+    border: solid rgba(126, 18, 18, 1);
     background-color: white;
     border-width: 6px;
+    /* To ensure the text appears center (without icons) */
     padding-left: 40px;
     padding-right: 65px;
 }
@@ -193,7 +198,7 @@ footer a{
 }
 
 #services-list {
-    font-size:18px
+    font-size: 18px
 }
 
 #services-list i {
@@ -212,6 +217,7 @@ footer a{
     #services-list i {
         font-size: 30px;
     }
+
     .services-info {
         padding-left: 10px;
         padding-right: 30px;
@@ -223,6 +229,7 @@ footer a{
     #testimonials-lg {
         display: none;
     }
+
     .carousel {
         margin-bottom: 30px;
     }
@@ -232,10 +239,12 @@ footer a{
     .carousel {
         display: none;
     }
+
     .quote {
         width: 340px;
     }
 }
+
 .quote-wrapper {
     display: flex;
     flex-direction: row;
@@ -262,12 +271,13 @@ footer a{
     margin: 0;
 }
 
-/* --------------------------------------------Contact page */  
+/* --------------------------------------------Contact page */
 .contact-box-wrapper {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;  
+    flex-wrap: wrap;
 }
+
 .contact-boxes {
     margin: 5px;
     max-width: 270px;
@@ -277,55 +287,54 @@ footer a{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border:solid;
-    border-color:  #B1B8C5;   
+    border: solid #B1B8C5;
 }
 
 .contact-boxes i {
     font-size: 30px;
-    margin-top:10px;
+    margin-top: 10px;
 }
+
 .contact-boxes p {
     font-size: 18px;
-    margin-top:10px;
+    margin-top: 10px;
 }
 
 .contact-boxes a {
     color: inherit;
 }
+
 /* To make this button look more clickable than the other contact details */
 .fb-button {
     border-bottom: solid;
     border-right: solid;
-    border-color:#B1B8C5;
+    border-color: #B1B8C5;
     border-width: 6px;
 }
 
- /* --------------------------------------------Contact page form*/   
- input[type=text],
- input[type=email] {
+/* --------------------------------------------Contact page form*/
+input[type=text],
+input[type=email] {
     width: 200px;
     padding: 5px;
     margin: 8px 0;
     /* This includes the padding and border in the total size of the box */
     box-sizing: border-box;
-    display: "block";
- }
+}
 
- input[type=textarea] {
+input[type=textarea] {
     max-width: 768px;
     height: 200px;
     padding: 5px;
-    margin: 8px 8px;
- }
+    margin: 8px;
+}
 
- .form-wrapper {
-    margin: 10px;
+.form-wrapper {
     padding: 30px;
     max-width: 768px;
     margin: 0 auto;
     box-shadow: 0 0 10px;
- }
+}
 
 
 .checkbox {
@@ -336,20 +345,25 @@ footer a{
     max-width: 236px;
     margin: 0 auto;
 }
+
 #description {
     height: 150px;
     margin: 5px auto 15px;
 }
+
 label {
-    display:block;
+    display: block;
 }
+
 #address-wrapper {
     margin: 30px auto 10px;
 }
+
 #address-wrapper p {
     font-size: 20px;
 }
-#address-wrapper i{
+
+#address-wrapper i {
     color: rgba(126, 18, 18, 1);
     font-size: 35px;
 }
@@ -362,55 +376,51 @@ label {
     max-width: 800px;
 }
 
-@media only screen and (max-width: 800px)
-{
+@media only screen and (max-width: 800px) {
     #map-wrapper {
         width: 90%;
     }
 }
 
- /* --------------------------------------------Services page*/   
+/* --------------------------------------------Services page*/
 
 table {
-
-margin-left: auto;
-margin-right: auto;
-margin-top: 0;
-background-color: white;
+    margin: auto 0;
+    background-color: white;
 }
 
-th, td {
+th,
+td {
     border-bottom: 1px solid;
     padding: 5px;
-  }
+}
 
-  tr:hover {
+tr:hover {
     background-color: rgba(126, 18, 18, 1);
     color: white;
 }
 
-  .table-wrapper {
-    border:solid;
-    border-color:  #B1B8C5;   
-    border-width: 5px;
+.table-wrapper {
+    border: solid #B1B8C5 5px;
     max-width: 400px;
     padding: 20px;
     margin-top: 40px;
-    margin-bottom: 40px;  
-    background-color:white;
-  }
+    margin-bottom: 40px;
+    background-color: white;
+}
 
-  #services-hero {
+#services-hero {
     background-image: url(../images/guitar-heads.jpg);
     background-repeat: none;
     background-size: cover;
-  }
+}
 
 @media only screen and (max-width: 576px) {
     #services-hero {
         height: 50vh;
     }
 }
+
 @media only screen and (min-width:576px) {
     #services-hero {
         height: 75vh;
@@ -422,10 +432,10 @@ th, td {
 }
 
 #fix-vid {
- width: 90%;
- max-width: 820px;
- box-shadow: 0 0 11px 4px;
- border-radius: 10px;
+    width: 90%;
+    max-width: 820px;
+    box-shadow: 0 0 11px 4px;
+    border-radius: 10px;
 }
 
 #fix-vid-wrapper {
@@ -440,11 +450,11 @@ th, td {
     width: 250px;
     margin: 10px;
     /* credit: advice taken to ensure cards don't "snap back" after hover disappears https://stackoverflow.com/questions/54948759/css-animation-on-hover-snaps-back-to-default-size-after-hovering-away */
-    -webkit-transition: transform 0.8s ease-out;    
-    -moz-transition: transform 0.8s ease-out;    
-    -ms-transition: transform 0.8s ease-out;    
-    -o-transition: transform 0.8s ease-out;    
-    transition: transform 0.8s ease-out;    
+    -webkit-transition: transform 0.8s ease-out;
+    -moz-transition: transform 0.8s ease-out;
+    -ms-transition: transform 0.8s ease-out;
+    -o-transition: transform 0.8s ease-out;
+    transition: transform 0.8s ease-out;
 }
 
 .images-wrapper {
@@ -455,24 +465,25 @@ th, td {
     margin: 30px auto;
 }
 
-.card:hover, .card:active {
+.card:hover,
+.card:active {
     z-index: 1;
-    -webkit-transform: scale(1.1); 
-    -moz-transform: scale(1.1);     
-    -ms-transform: scale(1.1);   
-    -o-transform: scale(1.1);   
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
     transform: scale(1.1);
     -webkit-transition: transform 0.8s ease-in;
-    -moz-transition: transform 0.8s ease-in;  
-    -ms-transition: transform 0.8s ease-in;  
-    -o-transition: transform 0.8s ease-in;  
+    -moz-transition: transform 0.8s ease-in;
+    -ms-transition: transform 0.8s ease-in;
+    -o-transition: transform 0.8s ease-in;
     transition: transform 0.8s ease-in;
     /* credit: code taken and adapted from: https://stackoverflow.com/questions/9724035/how-can-one-create-an-overlay-in-css */
-    box-shadow: inset 0px 0px 0 1000px rgba(0,0,0,0.5);
+    box-shadow: inset 0px 0px 0 1000px rgba(0, 0, 0, 0.5);
 }
 
- /* --------------------------------------------Error page*/   
- .error-page {
+/* --------------------------------------------Error page*/
+.error-page {
     width: 100vw;
     height: 90vh;
     background-image: url(../images/fire-guitar.jpg);
@@ -482,14 +493,13 @@ th, td {
     display: flex;
     justify-content: center;
     align-items: center;
- }
+}
 
- .error-msg {
+.error-msg {
     color: white;
     background-color: rgba(143, 167, 227, 0.9);
     width: 80%;
     max-width: 600px;
     padding: 30px;
     text-align: center;
- }
-
+}
