@@ -29,12 +29,13 @@
 
 <body>
     <header>
+        <!-- credit: code taken and adapted from bootstrap: https://getbootstrap.com/docs/5.3/components/navbar/#how-it-works -->
         <nav class="navbar dgrey-bg-color navbar-expand-sm">
             <div class="container-fluid">
-                <a href="index.html" class="navbar-brand">
+                <a href="index.html" class="navbar-brand" role="button">
                     <div class="p-2 text-center">
-                        <img class="d-inline-block" src="assets/images/77-no-background.png"
-                            alt="Double Seven Guitars logo" width="60">
+                        <img class="d-inline-block" src="assets/images/77-no-background.png" width="60"
+                            alt="Double Seven Guitars Logo">
                     </div>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navdropdown"
@@ -47,11 +48,18 @@
                         <li class="nav-item list-inline-item">
                             <a href="index.html" class="nav-link">Home</a>
                         </li>
-                        <li class="nav-item list-inline-item">
+                        <li class="nav-item list-inline-item active">
                             <a href="services.html" class="nav-link">Services</a>
                         </li>
-                        <li class="nav-item list-inline-item">
-                            <a href="contact.html" class="nav-link">Contact</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                                aria-expanded="false">Contact Us</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="contact.html#contact-details">Contact Details</a>
+                                </li>
+                                <li><a class="dropdown-item" href="contact.html#contact-form">Contact Form</a></li>
+                                <li><a class="dropdown-item" href="contact.html#location">Where to find us</a></li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
@@ -62,17 +70,14 @@
         <div class="error-msg rounded-border">
             <h1>Whooooops! Something's on fire.</h1>
             <p>It seems this page no longer exists.</p>
-            <a href="index.html">
-                <button class="red-button">
-                    Take me back to safety!
-                </button>
-            </a>
-
+            <button class="red-button">
+                <a href="index.html">Take me back to safety!</a>
+            </button>
         </div>
     </main>
     
     <footer class="dgrey-bg-color">
-        <div class="fb-icon">
+        <div class="fb-icon" role="button">
             <a href="https://www.facebook.com/doublesevenguitars/" target="_blank"><i
                     class="fa-brands fa-facebook"></i></a>
         </div>
