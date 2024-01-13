@@ -14,10 +14,13 @@ body {
 /* To create a consistent theme for buttons or highlighted text */
 .red-button {
     background-color: rgba(126, 18, 18, 1);
-    color: white;
     padding: 10px;
     border-radius: 10px;
     border-color: white;
+}
+
+.red-button a{
+    color: white;
 }
 
 a {
@@ -173,6 +176,11 @@ footer a {
     text-align: center;
 }
 
+.primary-info-wrapper button {
+    max-width: 500px;    
+    margin: auto;
+}
+
 /* --------------------------------------------Home page services*/
 .services-wrapper {
     display: flex;
@@ -181,6 +189,10 @@ footer a {
     margin: 0 auto;
     width: 100%;
     max-width: 900px;
+}
+
+.services-wrapper button {
+    padding: 5px;
 }
 
 .services-intro {

@@ -24,7 +24,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- My own stylesheet -->
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
 </head>
 
 <body>
@@ -32,7 +32,7 @@
         <!-- credit: code taken and adapted from bootstrap: https://getbootstrap.com/docs/5.3/components/navbar/#how-it-works -->
         <nav class="navbar dgrey-bg-color navbar-expand-sm">
             <div class="container-fluid">
-                <a href="index.html" class="navbar-brand">
+                <a href="index.html" class="navbar-brand" role="button">
                     <div class="p-2 text-center">
                         <img class="d-inline-block" src="assets/images/77-no-background.png" width="60"
                             alt="Double Seven Guitars Logo">
@@ -84,11 +84,9 @@
             <p>These are our common services however we are experienced in diagnosing and fixing all manner of problems,
                 so if you have a feeling something's wrong or you have a more complicated repair on your hands please do
                 just contact us
-                <a href="contact.html">
-                    <button type="button" class="red-button py-1 px-2">
-                        here
-                    </button>
-                </a>
+                 <button class="red-button py-1 px-2">
+                    <a href="contact.html">here</a>
+                </button>
             </p>
             <table>
                 <thead>
@@ -196,7 +194,7 @@
     </section>
 
     <footer class="dgrey-bg-color">
-        <div class="fb-icon">
+        <div class="fb-icon" role="button">
             <a href="https://www.facebook.com/doublesevenguitars/" target="_blank"><i
                     class="fa-brands fa-facebook"></i></a>
         </div>

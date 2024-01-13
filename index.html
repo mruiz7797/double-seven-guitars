@@ -24,7 +24,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- My own stylesheet -->
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
 </head>
 
 <body>
@@ -32,7 +32,7 @@
         <!-- credit: code taken and adapted from bootstrap: https://getbootstrap.com/docs/5.3/components/navbar/#how-it-works -->
         <nav class="navbar dgrey-bg-color navbar-expand-sm">
             <div class="container-fluid">
-                <a href="index.html" class="navbar-brand">
+                <a href="index.html" class="navbar-brand" role="button">
                     <div class="p-2 text-center">
                         <img class="d-inline-block" src="assets/images/77-no-background.png"
                             alt="Double Seven Guitars logo" width="60">
@@ -71,9 +71,9 @@
     <section>
         <div class="hero-container">
             <img src="assets/images/logo-title.png" class="hero-title-horizontal"
-                alt="Double Seven Guitars Title Horizontal">
+                alt="Double Seven Guitars Title Horizontal" role="heading" aria-level="1">
             <img src="assets/images/logo-title-vertical.png" class="hero-title-vertical"
-                alt="Double Seven Guitars Title Vertical">
+                alt="Double Seven Guitars Title Vertical" role="heading" aria-level="1">
             <!-- Full size image for smaller screens -->
             <img src="assets/images/hero-for-mobile.jpg" class="img-fluid" id="hero-smaller-screens"
                 alt="Part of a black guitar on a grey background">
@@ -98,9 +98,9 @@
                 Do you feel that something's not quite right? Do you want your guitar to play better but you're not sure
                 what's wrong? Get in touch with us! We are experienced in diagnosing all manner of problems.
             </p>
-            <a href="contact.html">
-                <button type="button" class="red-button fw-bold">Click here to get in touch!</button>
-            </a>
+            <button class="red-button fw-bold">
+                <a href="contact.html">Click here to get in touch!</a>
+            </button>
         </div>
     </section>
 
@@ -134,9 +134,10 @@
                     </div>
                 </ul>
                 <p class="text-center">Click
-                    <a href="services.html#service-list">
-                        <button type="button" class="red-button py-1 px-2">here</button>
-                    </a>for a full list of services.
+                    <button class="red-button">
+                        <a href="services.html#service-list">here</a>
+                    </button>
+                    for a full list of services.
                 </p>
             </div>
         </div>
@@ -231,7 +232,7 @@
     </section>
 
     <footer class="dgrey-bg-color">
-        <div class="fb-icon">
+        <div class="fb-icon" role="button">
             <a href="https://www.facebook.com/doublesevenguitars/" target="_blank"><i
                     class="fa-brands fa-facebook"></i></a>
         </div>
