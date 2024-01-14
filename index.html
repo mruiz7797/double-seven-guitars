@@ -71,7 +71,7 @@
     <section>
         <div class="hero-container">
             <!-- h1 is present but hidden for accessibility reasons as the main heading is an image in this case -->
-            <h1 hidden>Double Seven Guitars</h1>
+            <h1 class="visually-hidden">Double Seven Guitars</h1>
             <!-- aria hidden because the heading above serves the purpose of providing the heading for screen readers -->
             <img src="assets/images/logo-title.png" class="hero-title-horizontal"
                 alt="Double Seven Guitars Title Horizontal" aria-hidden>
@@ -101,7 +101,7 @@
                 Do you feel that something's not quite right? Do you want your guitar to play better but you're not sure
                 what's wrong? Get in touch with us! We are experienced in diagnosing all manner of problems.
             </p>
-            <a href="contact.html" class="red-button" role="button">Click here to get in touch!</a>
+            <a href="contact.html" class="red-button" role="button">Get in touch now!</a>
         </div>
     </section>
 
@@ -133,8 +133,12 @@
                             quickly diagnose, and fix faults. </li>
 
                 </ul>
-                <p class="text-center">Click
-                <a href="services.html#service-list" class="red-button" role="button">here</a>
+                <p class="text-center">
+                    Click
+                    <a href="services.html#service-list" class="red-button" role="button">
+                        here
+                        <span class="visually-hidden">Navigate to list of services</span>
+                    </a>
                     for a full list of services.
                 </p>
             </div>
@@ -231,7 +235,9 @@
 
     <footer class="dgrey-bg-color">
         <a href="https://www.facebook.com/doublesevenguitars/" class="fb-icon" role="button" target="_blank"><i
-                    class="fa-brands fa-facebook"></i></a>
+                    class="fa-brands fa-facebook"></i>
+            <span class="visually-hidden">Navigate to Facebook</span>
+        </a>
         <ul class="list-unstyled pt-3">
             <li class="fw-semibold">
                 07745680992
@@ -241,7 +247,6 @@
             </li>
         </ul>
     </footer>
-
 
     <!-- SCRIPTS -->
     <!-- Font awesome -->
