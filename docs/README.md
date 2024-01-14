@@ -26,8 +26,12 @@ This website is created for the business Double Seven Guitars which is primarily
 4. [Testing](#testing-1)
    -
    - [Accessibility Testing](#testing-for-accessibility)
-      - [Failed Tests](#failed-tests)
+      - [Failed Tests and Fixes](#failed-tests-and-fixes)
       - [Repeated Tests](#repeated-tests)
+   
+   - [Functionality Testing](#functionality-testing)
+      - [Failed Tests and Fixes](#failed-tests-and-fixes-1)
+      - [Repeated Tests](#repeated-tests-1)
 
 5. [Bugs, Problems and Fixes](#bugs-problems-and-fixes-1)
    -
@@ -248,6 +252,7 @@ Used [this](https://stackoverflow.com/questions/31617136/avoid-elliptical-shape-
 
 After a lot of very close checking of my code, I found [this](https://www.youtube.com/watch?v=ulM3-nRABgk&ab_channel=ByteGrad) video which pointed me to look at the JS popper that I had put in separately to the other bootstrap links. This extra popper was not needed and was causing this issue. Removing it solved the problem. 
 
+
 ### Other small issues as mentioned in credits
 
 ## Testing
@@ -271,7 +276,7 @@ After a lot of very close checking of my code, I found [this](https://www.youtub
 | Semantic HTML has been used and role and purpose of features is clear (404 page)                               | Use WAVE chrome extension to identify any unclear elements or tags                   |    Pass  |
 | Check colour contrast using WCAG Color contract checker chrome extension                                       | Ensure that all colours pass | FAIL |
 
-#### Failed Tests: 
+#### Failed Tests and fixes: 
 
 1. Semantic HTML has been used and role and purpose of features is clear (home page): 
 
@@ -301,7 +306,39 @@ Chrome extension identifiedthat the starred writing at the bottom of the service
 | Semantic HTML has been used and role and purpose of features is clear (services page)                          | Use WAVE chrome extension to identify any unclear elements or tags                   |   Pass  |
 | Check colour contrast using WCAG Color contract checker chrome extension                                       | Ensure that all colours pass | Pass |
 
-### Testing fucntionality and responsivenes
+### Functionality Testing 
+
+The following tests were completed on both a windows laptop and an android phone, primary tests on chrome and then safari, firefox and edge were also tested. 
+
+| TEST                                                                                        | Expected Outcome                                                                            | Pass/Fail |
+| ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | --------- |
+| Click on the link in all pages to ensure it returns to home page | 77 Logo in top right takes you back to the home page from all 4 pages |   Pass    |
+| Click on the navigation links in all pages to ensure it returns to the correct page | All navigation links take you to the correct place from all 4  |   Pass     |
+| Click on icon in all pages to ensure it takes you to business Facebook page | Footer Facebook icon takes you to Facebook from all | Pass |
+| Navigate to each page and make sure the correct page is highlighted in the nav bar | Current page is highlighted in nav bar | FAIL |
+| Type an incorrect address to check 404 page appears| 404 error page gets invoked when incorrect address is type |    Pass   |
+| Click on "take me back to safety" button | Return to homepage when button is clicked |    Pass   |
+| Click on Get in touch now! button to check it takes you to contact page | Get in touch now! button takes you to contact page |  Pass |
+| Click on the "here" button and check it takes you to services table| Click here for a full list of services button takes you to services table | Pass  |
+| Click on the "here" button and check it takes you to contact page  | Services page "here" button takes you to contact page|  FAIL  |
+| Press play button and ensure video plays | Video on services page plays when play button is pressed | Pass |
+| Hover (click on phone) over each image (and then remove hover) and check for expected outcome | Gallery images increase in size, have an overlay and slowly decrease in size when you hover (or click on phone) | Pass |
+| Click on icon on contact page to ensure it takes you to business Facebook page| Facebook icon on contact page takes you to business Facebook page|   Pass  |
+| Click on the button to ensure it takes you to business Facebook page | "Message me on Facebook button" takes you to business Facebook page | Pass |
+| FORM: Enter all correct information with all checkboxes ticked and written text in textarea | CI form dump returns the correct inputted information|  Pass  |
+| FORM: Same as above but enter invalid email| Not allowed to submit | Pass |
+| FORM: Same as first form test but do not enter email  | Not allowed to submit | Pass |
+| FORM: Same as first form test but do not enter name | Not allowed to submit | Pass |
+| FORM: Same as first form test but do not enter phone number | Not allowed to submit |  Pass |
+| FORM: Same as first form test but no boxes checked | Allowed to submit, no service information in CI form dump | Pass |
+| FORM: Same as first form test but only 1 box checked (check each one individually)| Allowed to submit, only one (correct) service information in CI form dump | FAIL (other fretwork) |
+| FORM: Same as first form but no text in textarea | Not allowed to submit | Pass |
+| MAP: move map around by holding click, zoom in and out with cursor| Correct address appearing, able to move map with cursor, able to zoom in and out |  Pass  |
+
+
+#### Failed tests and fixes
+
+#### Repeated tests:
 
 ### Validation 
 
