@@ -314,7 +314,7 @@ tr:hover {
 
 #services-hero {
     background-image: url(../images/guitar-heads.jpg);
-    background-repeat: none;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
