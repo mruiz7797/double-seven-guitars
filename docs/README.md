@@ -23,8 +23,11 @@ This website is created for the business Double Seven Guitars which is primarily
 3. [Tools and Technologies Used](#tools-and-technologies-used-1)
    -
 
-4. Testing
+4. [Testing](#testing-1)
    -
+   - [Accessibility Testing](#testing-for-accessibility)
+      - [Failed Tests](#failed-tests)
+      - [Repeated Tests](#repeated-tests)
 
 5. [Bugs, Problems and Fixes](#bugs-problems-and-fixes-1)
    -
@@ -188,11 +191,13 @@ Images provided by the business.
  - Google developer tools to to test the wesbite for responsiveness and to fix bugs.
  - [Picture to people](https://www.picturetopeople.org/text_generator/others/transparent/transparent-text-generator.html "Picture to People website") was used to generate the title with transparent background that overlays the hero image. 
  - [Image Resizer](https://imageresizer.com "Image Resizer Website") was used to compress and resize images. 
+ - [Convertio](https://convertio.co/) for turning jpg to webp
  - [Coolors](https://coolors.co/ "Coolors Website") was used to generate the colour pallete. 
  - Google Maps API to embed a map using an iframe.
  - [Font Awesome](https://fontawesome.com/) was used for all icons used in my page.
  - [Am I Responsive?](https://www.google.com/search?q=am+i+responsive&rlz=1C1ONGR_en-GBGB985GB985&oq=am+i+respon&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDkyBggCEEUYQDIGCAMQRRhBMgYIBBBFGDwyBggFEEUYPNIBCDE4NTRqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8) to show how the website looks on different size screens and devices.
  - WAVE chrome extension for accessibility testing
+ - WCAG Contrast checker chrome extension for colour constrast checking
 
 ## Bugs, Problems and Fixes
 
@@ -247,7 +252,59 @@ After a lot of very close checking of my code, I found [this](https://www.youtub
 
 ## Testing
 
+
+
+
+
 ### Testing for accessibility 
+
+| Expected Outcome                                                                                               | Process to test                                                                      | Outcome |
+| -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ------- |
+| All images on home page (large screen) have alt texts -  3 images (hero, horizontal title text and logo image) | Use WAVE chrome extension to check presence of alt text and check code for alt texts |  Pass   |
+| All images on home page (small screen) have alt texts -  3 images (hero, vertical title text and logo image)   | Use WAVE chrome extension to check presence of alt text and check code for alt texts |  Pass   |
+| All images on services page have alt texts -  7 images (hero decoration only so not alt text, logo image and 6 gallery images)                 | Use WAVE chrome extension to check presence of alt text and check code for alt texts | Pass    |
+| All images on contact page have alt texts -  1 images (logo image)                                             | Use WAVE chrome extension to check presence of alt text and check code for alt texts |  Pass       |
+| All images on 404 page have alt text - 1 images (logo image,background image for decoration only)                              | Use WAVE chrome extension to check presence of alt text and check code for alt texts |  Pass   |
+| Semantic HTML has been used and role and purpose of features is clear (home page)                              | Use WAVE chrome extension to identify any unclear elements or tags                   |   FAIL  |
+| Semantic HTML has been used and role and purpose of features is clear (services page)                          | Use WAVE chrome extension to identify any unclear elements or tags                   |   FAIL  |
+| Semantic HTML has been used and role and purpose of features is clear (contact page)                           | Use WAVE chrome extension to identify any unclear elements or tags                   |    Pass |
+| Semantic HTML has been used and role and purpose of features is clear (404 page)                               | Use WAVE chrome extension to identify any unclear elements or tags                   |    Pass  |
+| Check colour contrast using WCAG Color contract checker chrome extension                                       | Ensure that all colours pass | FAIL |
+
+#### Failed Tests: 
+
+1. Semantic HTML has been used and role and purpose of features is clear (home page): 
+
+WAVE IDENTIFIED (fixes completed on all pages before running remaining tests): 
+- no h1 on the page   
+This was corrected by adding a h1 to the hero image section but applying to the [boostrap "visually-hidden" class](https://getbootstrap.com/docs/5.0/helpers/visually-hidden/)
+- empty link (facebook icon)   
+This has been corrected by adding a span with "visually-hidden" class that says "Navigate to Facebook". Advice taken from [here](https://kittygiraudel.com/2020/12/10/accessible-icon-links/) and [here](https://a11y-101.com/development/icons-and-links#:~:text=Enhance%20icon%20with%20text,the%20icon%20within%20the%20link.&text=VoiceOver%20will%20read%20link%2C%20home,%3A%20URL%20comma%20read%2Donly%20.). 
+- links containing "click here" or just "here" should be reworded   
+Removed "click here" from first button and add visually hidden span to describe the "here" link that may be read out of context on a screen reader.
+
+2. Semantic HTML has been used and role and purpose of features is clear (services page):
+
+WAVE IDENTIFIED (fixes completed on all pages before running remaining tests):
+
+- heading level 5 on images was inappropriate use of heading and skipped other heading levels. Rectified by changing to p tag. 
+
+3. Check colour contrast using WCAG Color contract checker chrome extension
+
+Chrome extension identifiedthat the starred writing at the bottom of the service list did not have enough contrast so colour changed.
+
+#### Repeated tests:
+
+| Expected Outcome                                                                                               | Process to test                                                                      | Outcome |
+| -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ------- |
+| Semantic HTML has been used and role and purpose of features is clear (home page)                              | Use WAVE chrome extension to identify any unclear elements or tags                   |   Pass  |
+| Semantic HTML has been used and role and purpose of features is clear (services page)                          | Use WAVE chrome extension to identify any unclear elements or tags                   |   Pass  |
+| Check colour contrast using WCAG Color contract checker chrome extension                                       | Ensure that all colours pass | Pass |
+
+### Testing fucntionality and responsivenes
+
+### Validation 
+
 
 
 
