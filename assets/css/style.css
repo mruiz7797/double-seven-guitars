@@ -308,6 +308,10 @@ tr:hover {
     background-color: white;
 }
 
+.table-wrapper a {
+    padding: 5px 8px 8px 8px;
+}
+
 #services-hero {
     background-image: url(../images/guitar-heads.jpg);
     background-repeat: none;
