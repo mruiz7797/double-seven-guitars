@@ -310,7 +310,7 @@ tr:hover {
 }
 
 #services-hero {
-    background-image: url(../images/guitar-heads.jpg);
+    background-image: url(../images/guitar-heads.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -497,7 +497,7 @@ label {
 .error-page {
     width: 100vw;
     height: 90vh;
-    background-image: url(../images/fire-guitar.jpg);
+    background-image: url(../images/fire-guitar.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
