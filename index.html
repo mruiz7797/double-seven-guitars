@@ -70,10 +70,13 @@
     <!-- Hero image-->
     <section>
         <div class="hero-container">
+            <!-- h1 is present but hidden for accessibility reasons as the main heading is an image in this case -->
+            <h1 hidden>Double Seven Guitars</h1>
+            <!-- aria hidden because the heading above serves the purpose of providing the heading for screen readers -->
             <img src="assets/images/logo-title.png" class="hero-title-horizontal"
-                alt="Double Seven Guitars Title Horizontal" role="heading" aria-level="1">
+                alt="Double Seven Guitars Title Horizontal" aria-hidden>
             <img src="assets/images/logo-title-vertical.png" class="hero-title-vertical"
-                alt="Double Seven Guitars Title Vertical" role="heading" aria-level="1">
+                alt="Double Seven Guitars Title Vertical" aria-hidden>
             <!-- Full size image for smaller screens -->
             <img src="assets/images/hero-for-mobile.jpg" class="img-fluid" id="hero-smaller-screens"
                 alt="Part of a black guitar on a grey background">
@@ -114,22 +117,21 @@
             <div class="rounded-border services-info">
 
                 <h2 class="text-center">Services include:</h2>
-                <ul class="list-unstyled" id="services-list">
-                    <div class="list-items">
-                        <i class="fa-solid fa-circle-check"></i>
-                        <li class="p-2"><strong>Fretwork </strong>ranging from complete replacement to a simple clean
+
+
+                <ul class="list-unstyled list-items" id="services-list">
+               
+                        <li class="p-2"><strong><i class="fa-solid fa-circle-check"></i> Fretwork </strong>ranging from complete replacement to a simple clean
                             and polish</li>
-                    </div>
-                    <div class="list-items">
-                        <i class="fa-solid fa-circle-check"></i>
-                        <li class="p-2">Comprehensive <strong>set ups</strong> which involve checking and adjusting (if
+
+                       
+                        <li class="p-2"><i class="fa-solid fa-circle-check"></i> Comprehensive <strong>set ups</strong> which involve checking and adjusting (if
                             necessary) nearly every component of your guitar.</li>
-                    </div>
-                    <div class="list-items">
-                        <i class="fa-solid fa-circle-check"></i>
-                        <li class="p-2"><strong>Electrical Repairs</strong> carried out using our years of experience to
+
+                        
+                        <li class="p-2"><strong><i class="fa-solid fa-circle-check"></i> Electrical Repairs</strong> carried out using our years of experience to
                             quickly diagnose, and fix faults. </li>
-                    </div>
+
                 </ul>
                 <p class="text-center">Click
                 <a href="services.html#service-list" class="red-button" role="button">here</a>

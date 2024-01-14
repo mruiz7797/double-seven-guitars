@@ -204,9 +204,7 @@ footer a {
     border: solid rgba(126, 18, 18, 1);
     background-color: white;
     border-width: 6px;
-    /* To ensure the text appears center (without icons) */
-    padding-left: 40px;
-    padding-right: 65px;
+    padding: 30px 30px;
 }
 
 .services-info h2 {
@@ -225,10 +223,6 @@ footer a {
     margin-right: 20px;
 }
 
-.list-items {
-    display: flex;
-    margin-bottom: 20px;
-}
 
 @media only screen and (max-width: 470px) {
     #services-list i {
@@ -236,7 +230,7 @@ footer a {
     }
 
     .services-info {
-        padding-left: 10px;
+        padding-left: 30px;
         padding-right: 30px;
     }
 }
