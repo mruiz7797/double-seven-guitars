@@ -336,9 +336,27 @@ The following tests were completed on both a windows laptop and an android phone
 | MAP: move map around by holding click, zoom in and out with cursor| Correct address appearing, able to move map with cursor, able to zoom in and out |  Pass  |
 
 
-#### Failed tests and fixes
+#### Failed tests and fixes:
+
+1. Current page is highlighted in nav bar
+
+The services nav link is highlight on the error page. Remove any active classes from error page.
+
+2. Services page "here" button takes you to contact page
+
+Update the wrong link.
+
+3. Allowed to submit, only one (correct) service information in CI form dump 
+
+Change incorrect value
 
 #### Repeated tests:
+
+| TEST | Expected Outcome  | Pass/Fail |
+| ------ | ------------- | --------- |
+| Navigate to each page and make sure the correct page is highlighted in the nav bar | Current page is highlighted in nav bar | FAIL |
+| Click on the "here" button and check it takes you to contact page  | Services page "here" button takes you to contact page|  FAIL  |
+| FORM: Same as first form test but only 1 box checked (check each one individually)| Allowed to submit, only one (correct) service information in CI form dump | FAIL (other fretwork) |
 
 ### Validation 
 
