@@ -41,6 +41,15 @@ a {
 }
 
 /* --------------------------------------------Navbar */
+.fa-bars {
+    color:#B1B8C5;
+    font-size: 30px;
+}
+
+.navbar-toggler {
+    border-color: #B1B8C5;
+    border-width: 3px;
+}
 .nav-link {
     color: #B1B8C5;
     font-weight: 600;
