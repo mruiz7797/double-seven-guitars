@@ -27,6 +27,11 @@ a {
     text-decoration: none;
 }
 
+a:active, a:hover {
+    color: #fff;
+    font-size: larger;
+}
+
 /* --------------------------------------------Colours */
 .blue-bg-color {
     background-color: #8fa7e3;
@@ -56,6 +61,10 @@ a {
     font-size: 20px;
     margin-bottom: -10px;
     text-transform: uppercase;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: #B1B8C5;
 }
 
 .dropdown-menu,
