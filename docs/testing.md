@@ -6,6 +6,7 @@
     * [Getting the title image to overlap hero](#getting-the-title-image-to-overlap-the-hero-image)
     * [Ellipse corners on boxes](#corners-on-boxes-were-appearing-as-an-ellipse-shape-rather-than-quarter-circles)
     * [Navbar toggler not closing](#bootstrap-navbar-toggler-wasnt-closing-when-the-burger-icon-was-pushed)
+    * [Changing the bootstrap version](#changing-the-bootstrap-version-to-ensure-css-validation)
     * [Other](#other-small-issues-as-mentioned-in-credits)
 
 * [Accessibility Testing](#testing-for-accessibility)
@@ -18,14 +19,17 @@
     * [Failed Tests and Fixes](#failed-tests-and-fixes-1)
     * [Repeated Failed Tests](#repeated-tests-1)
 
-* [Responsiveness Testing]()
+* [Responsiveness Testing](#responsiveness-testing)
 
-* [Browser Testing]()
+* [Browser Testing](#browser-and-device-testing)
 
 * [User Story Testing](#testing-user-stories)
 
 * [Validation](#validation) 
 
+* [Lighthouse Testing](#lighthouse-testing)
+    * [Desktop](#desktop)
+    * [Mobile](#mobile)
 
 ## Bugs, Problems and Fixes encountered during the building process
 
@@ -76,6 +80,9 @@ Used [this](https://stackoverflow.com/questions/31617136/avoid-elliptical-shape-
 
 After a lot of very close checking of my code, I found [this](https://www.youtube.com/watch?v=ulM3-nRABgk&ab_channel=ByteGrad) video which pointed me to look at the JS popper that I had put in separately to the other bootstrap links. This extra popper was not needed and was causing this issue. Removing it solved the problem. 
 
+### Changing the bootstrap version to ensure CSS validation 
+
+I left my CSS validation right until the end and then realised the latest version of bootstrap was not validating. I changed it to the newest version that would validate. This caused my "hamburger" dropdown icon to disappear. I fixed this by using a font awesome icon instead and styling it to look visually pleasing. Another issue that arose was that clicked links or ones that were hovered over were not appearing blue so I had to target the links correctly with the colour I wanted in my stylesheet.
 
 ### Other small issues as mentioned in credits
 
@@ -96,7 +103,7 @@ After a lot of very close checking of my code, I found [this](https://www.youtub
 | Semantic HTML has been used and role and purpose of features is clear (404 page)                               | Use WAVE chrome extension to identify any unclear elements or tags                   |    Pass  |
 | Check colour contrast using WCAG Color contract checker chrome extension                                       | Ensure that all colours pass | FAIL |
 
-### Failed Tests and fixes: 
+### Failed Tests and Fixes: 
 
 1. Semantic HTML has been used and role and purpose of features is clear (home page): 
 
@@ -118,7 +125,7 @@ WAVE IDENTIFIED (fixes completed on all pages before running remaining tests):
 
 Chrome extension identifiedthat the starred writing at the bottom of the service list did not have enough contrast so colour changed.
 
-### Repeated tests:
+### Repeated Tests:
 
 | Expected Outcome                                                                                               | Process to test                                                                      | Outcome |
 | -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ------- |
@@ -130,13 +137,15 @@ Chrome extension identifiedthat the starred writing at the bottom of the service
 
 The following tests were completed on both a windows laptop and an android phone, primary tests on chrome and then safari, firefox and edge were also tested. 
 
+### Tests
+
 | TEST                                                                                        | Expected Outcome                                                                            | Pass/Fail |
 | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | --------- |
 | Click on the link in all pages to ensure it returns to home page | 77 Logo in top right takes you back to the home page from all 4 pages |   Pass    |
 | Click on the navigation links in all pages to ensure it returns to the correct page | All navigation links take you to the correct place from all 4  |   Pass     |
 | Click on icon in all pages to ensure it takes you to business Facebook page | Footer Facebook icon takes you to Facebook from all | Pass |
 | Navigate to each page and make sure the correct page is highlighted in the nav bar | Current page is highlighted in nav bar | FAIL |
-| Type an incorrect address to check 404 page appears| 404 error page gets invoked when incorrect address is type |    Pass   |
+| Type an incorrect address to check 404 page appears| 404 error page gets invoked when incorrect address is typed |    Pass   |
 | Click on "take me back to safety" button | Return to homepage when button is clicked |    Pass   |
 | Click on Get in touch now! button to check it takes you to contact page | Get in touch now! button takes you to contact page |  Pass |
 | Click on the "here" button and check it takes you to services table| Click here for a full list of services button takes you to services table | Pass  |
@@ -305,7 +314,7 @@ Same as User Story B above.
 
 ## Validation 
 
-A note on html validation: all pages initially had some failures which were educational. A lot were concerned with wrapping a button in an a tag, or vice versa. Others were minor issues that could be resolved easily. In hindsight, I should have been using the validator as I went along to avoid having to bulk changes near the end of the project.
+A note on html and css validation: all pages initially had some failures which were educational. A lot were concerned with wrapping a button in an a tag, or vice versa. Others were minor issues that could be resolved easily. The major issues was the version of bootstrap I was using not validating. In hindsight, I should have been using the validator as I went along to avoid having to bulk changes near the end of the project.
 
 ### index.html html validation
 
@@ -327,6 +336,47 @@ A note on html validation: all pages initially had some failures which were educ
 
 ![CSS validation failure message](images/validation/css-fail.png)
 
-This failed because of the bootstrap version I was using. 
+This failed because of the bootstrap version I was using. I made some updates which are detailed in the [bugs section](#bugs-problems-and-fixes-encountered-during-the-building-process) of this page. I repeated all tests with this new version to ensure no expected issues arose from changing the bootstrap version. 
+
+All tests passed and it now passed the css validation: 
+
+![CSS proof of passing validation](images/validation/css-validation-pass.png)
 
 
+## Lighthouse Testing
+
+I initially ran some lighthouse testing before finishing my project and decided to compress all images and then convert them to webp format to improve the performance. This made a big difference and was a good learning opportunity for me.
+
+### Desktop 
+
+#### Home Page
+
+![Home page desktop lighthouse results](images/testing/LH-desktop-home.png)
+
+#### Services Page
+
+![Services page lighthouse results](images/testing/LH-desktop-services.png)
+
+#### Contact Page 
+
+![First try contact lighthouse results](images/testing/LH-desktop-contact-1.png)
+
+I improved the accessibility and best practices by adding a title to my iframe and by adding autocomplete to two form inputs (although this didn't end improving the best practices result):
+
+![Second try contact lighthouse results](images/testing/LH-desktop-contact-2.png)
+
+The best practice was not 100% because of an issue with third party cookies from the maps. I tried to see if there was sometimes I could do to rectify this but felt it was not within the scope of this course.
+
+### Mobile 
+
+#### Home Page
+
+![Mobile home page lighthouse result](images/testing/LH-mobile-home.png)
+
+#### Services Page
+
+![Mobile services page lighthouse result](images/testing/LH-mobile-services.png)
+
+#### Contact Page
+
+![Mobile contact page lighthouse result](images/testing/LH-mobile-contact.png)
