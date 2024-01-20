@@ -17,30 +17,25 @@ This website is created for the business Double Seven Guitars which is primarily
    - [Skeleton - Wireframes](#skeleton---wireframes)
    - [Surface - Design Choices](#surface---design-choices)
 
-2. [Features](#features)
+2. [Features](#features-1)
    - 
 
 3. [Tools and Technologies Used](#tools-and-technologies-used-1)
    -
 
-4. [Testing](#testing-1)
+4. [Testing](#testing-and-validation)
    -
-   - [Accessibility Testing](#testing-for-accessibility)
-      - [Failed Tests and Fixes](#failed-tests-and-fixes)
-      - [Repeated Tests](#repeated-tests)
-   
-   - [Functionality Testing](#functionality-testing)
-      - [Failed Tests and Fixes](#failed-tests-and-fixes-1)
-      - [Repeated Tests](#repeated-tests-1)
 
-5. [Bugs, Problems and Fixes](#bugs-problems-and-fixes-1)
+5. [Deployment and Local Development](#deployment-1)
    -
 6. [Credits](#credits)
    -
+   * [Images](#images)
+   * [Code](#code)
+   * [Content](#content)
 
-
-
-
+7. [Acknowledgements](#acknowledgements)
+   -
 ## UX Design
 
 ### Strategy - Consumer Goals 
@@ -178,11 +173,153 @@ For the typography used for the brand name I used www.picturetopeople.org to gen
 ![Font used for brand name on hero image](./images/hero-font.png)
 
 
-#### Imagery TBD
+#### Imagery
 
-Images provided by the business. 
+Images provided by the business and sourced from unsplash.
 
 ## Features
+
+### Footer
+
+This is common to all pages, contains contact details and the facebook icon links to the business facebook page: 
+
+![Footer of home page](images/footer.png)
+
+### Navigation Bar
+This is common to all pages. Navigation bar that uses the business logo as a link for the home page. The navigation link are on the right side and the active page is a different colour and made larger: 
+
+![Navigation bar](images/nav-bar.png)
+On a mobile device the navigation links collapse: 
+
+![Mobile Navigation Bar](images/nav-bar-mobile.png)
+
+The contact navigation link has a further dropdown so preferred communication can be chose and so location is easily found: 
+
+![Contact link dropdown](images/contact-dropdown.png)
+
+
+### Home Page
+
+
+#### Hero image and title 
+
+The hero image is overlapped by the title image: 
+
+![Hero image on desktop](images/hero-desktop.png)
+
+On a mobile the title is presented vertically and a different image was used with a different ratio to make everything look more proportional: 
+
+![Hero image on mobile](images/hero-mobile.png)
+
+#### Primary information section
+
+This section sits underneath the hero and is designed to tell the user about the business straight away. It has a button that takes you to the contact page to increase the chance of a first-time-visit purchase:
+
+![Primary Information Section](images/primary-info-section.png)
+
+It is responsive a shrinks with the screen size and margin is maintained: 
+
+![Mobile primary information section](images/primary-info-section-mobile.png)
+
+#### Services Section 
+
+This sections includes a dark grey banner that appear, consistnetly, on all pages. Services are bulleted with icons and button that leads directly to the table of services on the services page:
+
+![Services section of home page](images/services-section.png)
+
+It is responsive on smaller screens: 
+
+![Services section of home page on mobile](images/services-section-mobile.png)
+
+#### Testimonials Section 
+
+This section includes the common banner and features three good reviews:
+
+![Testimonials Section](images/testimonials-section.png)
+
+Responsive on a medium screen: 
+
+![Testimonials section medium screen](images/testimonials-section-medium.png)
+
+Responsive on a mobile - on these smaller screens the testimonals appear as a carousel for people to click through: 
+
+![Testimonials section on a mobile feating a carousel](images/testimonials-section-mobile.png)
+
+
+
+### Services Page
+
+
+#### Services hero image
+
+The services hero image appears under the navigation bar and above the services table section: 
+
+![Services page hero image](images/services-hero.png)
+
+On a mobile the proportions of the hero image are slightly different:
+
+![Service page hero image on mobile](images/services-hero-mobile.png)
+
+#### Table of services 
+The table of services sits under the commonly styled banner (see home page). Hovering over the table rows makes the background the double seven red colour and the text white. There is a button that takes you to the contact page if you would like to request a service. 
+
+![List of services provided by double seven guitars](images/services-table.png)
+
+#### Video and gallery section
+
+Underneath another banner there is a video to showcase an example repair: 
+
+![Services page video section](images/services-video.png)
+
+Underneath the video sits the gallery section. On a hover or click the cards in the gallery section get an opaque black overlay and get slowly larger and slowly smaller when hover is removed or a click happens elsewhere: 
+
+![Gallery section showing one image with an opaque black overlay and slightly larger](images/services-gallery.png)
+
+The gallery is responsive and on a medium screen looks like: 
+
+![Gallery section on medium screen](images/services-gallery-medium.png)
+
+On a mobile device the cards stack on top of each other and look like this: 
+
+![Gallery section on a mobile](images/services-gallery-mobile.png)
+
+### Contact Page
+
+#### Contact Boxes
+
+At the top of the contact page there are three boxes showing forms of contact. The red facebook button has a border to the right and to the bottom to add "affordance" and make it look more clickable than the others. In future implementations, I would want the phone and email to be clickable instantly copy to the person's device. 
+
+![Contact boxes on the contact page](images/contact-boxes.png)
+
+On a medium screen:
+
+![Contact boxes on a medium screen](images/contact-boxes-medium.png)
+
+And stacked on top of each other on a mobile: 
+
+![Contact boxes on a mobile screen](images/contact-boxes-mobile.png)
+
+#### Address and map
+
+The top of this section has the common banner.
+This sections features the address in a box in the same style as the contact boxes and an embedded google map underneath.
+
+![Address and map section](images/address-map.png)
+
+The map is responsive and shrinks to fit mobile: 
+
+![Address and map section on mobile](images/address-map-mobile.png)
+
+### 404.html Page
+
+The 404 page has a whimsical/jokey message and a button to return to the main home page:
+
+![404 page](images/404-page.png)
+
+The page is responsive on a mobile: 
+
+![404 page on mobile](images/404-page-mobile.png)
+
 
 ## Tools and Technologies Used
  - Custom HTML and CSS were used throughout.
@@ -209,6 +346,44 @@ Images provided by the business.
 
 Testing and validation have been included in a separate [file](testing.md).
 
+## Deployment and local development
+
+### Deployment
+
+Github Pages was used to deploy the live website. The instructions to achieve this are below:
+
+1. Log in to Github
+1. Find the repository for this project (double-seven-guitars)
+3. Click on the Settings button at the top of the screen.
+4. Click on the Pages button on the left navigation bar.
+5. Go to the Build and Deployment section. 
+6. Make sure the Source is "deploy from a branch"
+7. Go to the Branch section, choose main and /root.
+8. Click Save. Your live Github Pages site is now deployed at the URL shown.
+
+### Local Development
+
+#### How to Fork:
+To fork the double-seven-guitars repository:
+
+1. Log in to Github
+2. Go to the repository for this project (double-seven-guitars)
+3. Click the Fork button on the top right
+
+#### How to Clone
+
+##### In VS Code: 
+1. Open VS Code
+2. Select "Clone Git repository"
+3. Type in https://github.com/AmyB173/double-seven-guitars.git 
+4. Choose a local destination for the folder
+5. Click open
+
+##### In Gitpod 
+1. Sign in to Gitpod
+2. Select new workspace 
+3. Type in https://github.com/AmyB173/double-seven-guitars.git 
+
 ## Credits
 
 ### Images
@@ -224,6 +399,7 @@ Any images that are not listed below have been sourced from the business owner a
 ### Code 
 #### General
 - W3Schools for general help in understanding html and css
+- Code Institute learning material used to develop general html and css knowledge
 - Bootstrap documentation for [Bootstrap v5.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/) for help in understanding the bootstrap classes and how to apply them. 
 - [CSS tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) website for general help in understanding css flexbox
 - For help with the readme, Kera Cudmore's [repository](https://github.com/kera-cudmore/readme-examples/blob/main/README.md#whats-a-readme) was used.
@@ -266,3 +442,13 @@ My code:
     transition: transform 0.8s ease-out;    
     }    
 ```
+### Content
+
+The content was written by myself and by the owner of Double Seven Guitars.
+
+## Acknowledgements
+
+* Matt Bennett - the owner of Double Seven Guitars, for kindly letting my use his business for my project and for assisting with images and content. 
+* Slack Oct 2023 Cohort - for helping with issues I posted on slack.
+* Alan Bushell - Oct 2023 Cohort Facilitator, for the helpful advice and guidance offered in the weekly stand-ups. 
+* Okwudiri Okoro - Code Institute Mentor, for the feedback on my project.

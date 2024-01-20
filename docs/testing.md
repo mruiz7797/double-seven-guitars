@@ -135,7 +135,7 @@ Chrome extension identifiedthat the starred writing at the bottom of the service
 
 ## Functionality Testing 
 
-The following tests were completed on both a windows laptop and an android phone, primary tests on chrome and then safari, firefox and edge were also tested. 
+The following tests were completed on both a windows laptop and an android phone, primary tests on chrome and then firefox and edge were also tested. 
 
 ### Tests
 
@@ -224,7 +224,7 @@ All pages were tested, and developer tools were used on both chrome and firefox.
 
 - I also used this website on a variety of android phones and one iphone, and checked it was working as expected. 
 
-- I did not have access to any apple products other than a friend offering their iphone so I couldn't do any full testing with safari without spending money for simulators. 
+- I did not have access to any apple products so I couldn't do any full testing with safari without spending money for simulators. 
 
 ## Testing User Stories
 
