@@ -25,6 +25,7 @@ This website is created for the business Double Seven Guitars which is primarily
    * [Services Page](#services-page-1)
    * [Contact Page](#contact-page-1)
    * [404 Page](#404html-page)
+   * [Future Implementations](#future-implementations)
 
 3. [Tools and Technologies Used](#tools-and-technologies-used-1)
    -
@@ -158,7 +159,7 @@ The wireframes below have been adapted slightly, with buttons being added at var
 
 The main business logo has been discarded: 
 
-![Original Double Seven Logo](./images/Logo-v2.png)
+![Original Double Seven Logo](./images/logo-v2.png)
 
 But the 77 element has been retained as the logo for the website:
 
@@ -172,7 +173,7 @@ This colour palette is inspired by the business logo which features red, black a
 
 I have used google fonts and chosen "Dosis":
 
-![Dosis Font Example](./images/Dosis%20Font.png)
+![Dosis Font Example](./images/dosis-font.png)
 
 For the typography used for the brand name I used www.picturetopeople.org to generate a more unique looking font as an image with a clear background: 
 
