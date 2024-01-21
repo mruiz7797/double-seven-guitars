@@ -102,6 +102,10 @@ In future I would look to implement something like the following to make them mo
 
 ### Other small issues as mentioned in credits
 
+### Unfixed bugs
+
+The form is not functional in that the data is not taken or stored anywhere appropriate. In this instance the Code Institute Form Dump was used. This functionality is out of the scope of this course thus far and so has been left out. 
+
 ## Testing for accessibility 
 
 ### Tests
