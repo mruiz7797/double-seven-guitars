@@ -326,6 +326,26 @@ The page is responsive on a mobile:
 
 ![404 page on mobile](images/404-page-mobile.png)
 
+### Future implementations
+
+* Confirmation page after submit button and form that works
+
+There was some discussion in our weekly stand up about whether or not a "Thank you" page should be used after submitting the form to provide a positive user experience. The conclusion was that there should not be a "Thank you" page as this would be a lie (the data doesn't go anywhere and they won't get a reply). The recommendation was to use the Code Institute form dump so submitted information can be seen. 
+
+In future, I would lke to learn the skills to be able to ensure the form is fully functioning and as such could implement a "Thank you" page. 
+
+* Contact buttons
+
+In the contact boxes I would like the phone number and email to be interactive and to "copy to clipboard" when clicked. 
+
+* More detailed information regarding repairs
+
+The business is skilled in repair and has done many complicated ones that could be thoroughly documented as "case studies" on the website. 
+
+* More guidance for novice guitar owners 
+
+Many customers of the business are not knowledgeable about repairs or maintenance and a page describing what maintenance, why, how often would aid the novice user and encourage more business (especially for maintenance).
+
 
 ## Tools and Technologies Used
  - Custom HTML and CSS were used throughout.
