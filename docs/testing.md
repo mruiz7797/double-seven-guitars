@@ -290,6 +290,10 @@ Reviews are at the bottom of the home page:
 
 •	**D: As a first time visitor, I want to check the location of the business, so that I can see if it is feasable to drop off/pick up my guitar.**
 
+Mention of location (Lechlade) in the primary info section: 
+
+![Primary information section](images/primary-info-section.png)
+
 Link to location in contact drop down in nav bar: 
 
 ![Contact dropdown in nav bar](images/testing/contact-dropdown.png)
