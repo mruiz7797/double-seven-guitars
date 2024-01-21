@@ -41,7 +41,7 @@ This website is created for the business Double Seven Guitars which is primarily
    * [Code](#code)
    * [Content](#content)
 
-7. [Acknowledgements](#acknowledgements-1)
+7. [Acknowledgments](#acknowledgments-1)
    -
 ## UX Design
 
@@ -60,29 +60,29 @@ Consumers want a method to understand:
 ### Strategy - Business Goals 
 
 - To increase the number of customers deciding to contact for repair 
-- To encourage first-time visitors to make a request for services
+- To encourage first-time visitors to request services
 
 ### Strategy - User Stories
 
-#### First time visitor (novice or experienced)
-- As a first time visitor, I want to see the prices clearly, so that I can decide if the repair is in my price range. (A) 
-- As a first time visitor, I want to understand how to get in contact, so that I can request a repair on my guitar. (B) 
-- As an first time visitor, I want to see the reviews of the business, so that I can see how well-known and liked they are and thus have confidence in the guitar repair (particularly important for experienced guitar owner). (C) 
-- As a first time visitor, I want to check the location of the business, so that I can see if it is feasible to drop off/pick up my guitar. 
+#### First-time visitor (novice or experienced)
+- As a first-time visitor, I want to see the prices clearly, so that I can decide if the repair is in my price range. (A) 
+- As a first-time visitor, I want to understand how to get in contact, so that I can request a repair on my guitar. (B) 
+- As an first-time visitor, I want to see the reviews of the business, so that I can see how well-known and liked they are and thus have confidence in the guitar repair (particularly important for experienced guitar owners). (C) 
+- As a first-time visitor, I want to check the location of the business, so that I can see if it is feasible to drop off/pick up my guitar. 
 
-#### Novice guitar owner (first time visit)
-- As a novice guitar owner (first time visit), I want to see a clear and easy-to-understand list of services, so that I can choose the appropriate service. (E) 
-- As a novice guitar owner (first time visit), I want to be given information of about types of repairs and maintenance so that I can understand what services I might need. (F)
+#### Novice guitar owner (first-time visit)
+- As a novice guitar owner (first-time visit), I want to see a clear and easy-to-understand list of services, so that I can choose the appropriate service. (E) 
+- As a novice guitar owner (first-time visit), I want to be given information about types of repairs and maintenance so that I can understand what services I might need. (F)
 
 
-#### Experienced guitar owner (first time visit)
+#### Experienced guitar owner (first-time visit)
 
-- As an experienced guitar owner (first time visit), I want to see whether more complicated repairs are available, so that I can decide if my problem can be resolved by the business. (G)
-- As an experienced guitar owner (first time visit), I want to see what types of repairs the business has experience in, so that I can trust my more complicated guitar repair with the business. (H)
+- As an experienced guitar owner (first-time visit), I want to see whether more complicated repairs are available so that I can decide if my problem can be resolved by the business. (G)
+- As an experienced guitar owner (first-time visit), I want to see what types of repairs the business has experience in so that I can trust my more complicated guitar repair with the business. (H)
 
 
 #### Returning Visitor (second+ repair)
-- As a returning visitor, I want to check the contact details again to ensure I have them correct for a request of another repair. (I)
+- As a returning visitor, I want to check the contact details again to ensure I have them correct for a request for another repair. (I)
 
 ### Strategy - Importance vs Viability 
 
@@ -90,7 +90,7 @@ Consumers want a method to understand:
 | ----------- | ----------- | ----------- 
 | To provide information about the core purpose of the business | 5 | 5 |
 | To provide cost information | 5 | 5
-| To showcase owner's guitar playing ability | 2 | 5 |
+| To showcase the owner's guitar playing ability | 2 | 5 |
 | To increase following to owner's band | 2 | 5
 | To showcase the types of repairs completed by the business | 4 | 5
 | To highlight good reviews of the business | 5 | 5
@@ -134,7 +134,7 @@ The website will contain three pages (plus a 404.html):
 
 - Services Page: this will contain a list of services and corresponding prices and some videos and images of repairs completed by the business.
 
-- Contact Page: This will include phone number, email address, facebook link, contact form and location information such as address and map. 
+- Contact Page: This will include a phone number, email address, Facebook link, contact form and location information such as address and map. 
 
 ### Skeleton - wireframes
 
@@ -171,32 +171,32 @@ This colour palette is inspired by the business logo which features red, black a
 
 #### Typography 
 
-I have used google fonts and chosen "Dosis":
+I have used Google Fonts and chosen "Dosis":
 
 ![Dosis Font Example](./images/dosis-font.png)
 
-For the typography used for the brand name I used www.picturetopeople.org to generate a more unique looking font as an image with a clear background: 
+For the typography used for the brand name I used www.picturetopeople.org to generate a more unique-looking font as an image with a clear background: 
 
 ![Font used for brand name on hero image](./images/hero-font.png)
 
 
 #### Imagery
 
-Images provided by the business and sourced from unsplash.
+Images provided by the business and sourced from Unsplash.
 
 ## Features
 
 ### Footer
 
-This is common to all pages, contains contact details and the facebook icon links to the business facebook page: 
+This is common to all pages, contains contact details and the Facebook icon links to the business Facebook page: 
 
 ![Footer of home page](images/footer.png)
 
 ### Navigation Bar
-This is common to all pages. Navigation bar that uses the business logo as a link for the home page. The navigation links are on the right side and the active page is a different colour and made larger: 
+This is common to all pages. The navigation bar that uses the business logo as a link for the home page. The navigation links are on the right side and the active page is a different colour and made larger: 
 
 ![Navigation bar](images/nav-bar.png)
-On a mobile device the navigation links collapse: 
+On a mobile device, the navigation links collapse: 
 
 ![Mobile Navigation Bar](images/nav-bar-mobile.png)
 
@@ -214,7 +214,7 @@ The hero image is overlapped by the title image:
 
 ![Hero image on desktop](images/hero-desktop.png)
 
-On a mobile the title is presented vertically and a different image was used with a different ratio to make everything look more proportional: 
+On a mobile, the title is presented vertically and a different image was used with a different ratio to make everything look more proportional: 
 
 ![Hero image on mobile](images/hero-mobile.png)
 
@@ -224,13 +224,13 @@ This section sits underneath the hero and is designed to tell the user about the
 
 ![Primary Information Section](images/primary-info-section.png)
 
-It is responsive a shrinks with the screen size and margin is maintained: 
+It is responsive a shrinks with the screen size and the margin is maintained: 
 
 ![Mobile primary information section](images/primary-info-section-mobile.png)
 
 #### Services Section 
 
-This sections includes a dark grey banner that appear, consistently, on all pages. Services are bulleted with icons and button that leads directly to the table of services on the services page:
+This section includes a dark grey banner that appears, consistently, on all pages. Services are bulleted with icons and a button that leads directly to the table of services on the services page:
 
 ![Services section of home page](images/services-section.png)
 
@@ -263,7 +263,7 @@ The services hero image appears under the navigation bar and above the services 
 
 ![Services page hero image](images/services-hero.png)
 
-On a mobile the proportions of the hero image are slightly different:
+On a mobile, the proportions of the hero image are slightly different:
 
 ![Service page hero image on mobile](images/services-hero-mobile.png)
 
@@ -282,11 +282,11 @@ Underneath the video sits the gallery section. On a hover or click the cards in 
 
 ![Gallery section showing one image with an opaque black overlay and slightly larger](images/services-gallery.png)
 
-The gallery is responsive and on a medium screen looks like: 
+The gallery is responsive and on a medium screen looks like this: 
 
 ![Gallery section on medium screen](images/services-gallery-medium.png)
 
-On a mobile device the cards stack on top of each other and look like this: 
+On a mobile device, the cards stack on top of each other and look like this: 
 
 ![Gallery section on a mobile](images/services-gallery-mobile.png)
 
@@ -294,7 +294,7 @@ On a mobile device the cards stack on top of each other and look like this:
 
 #### Contact Boxes
 
-At the top of the contact page there are three boxes showing forms of contact. The red facebook button has a border to the right and to the bottom to add "affordance" and make it look more clickable than the others. In future implementations, I would want the phone and email to be clickable instantly copy to the person's device. 
+At the top of the contact page, there are three boxes showing forms of contact. The red Facebook button has a border to the right and bottom to add "affordance" and make it look more clickable than the others. In future implementations, I would want the phone and email to be clickable and instantly copy to the person's device. 
 
 ![Contact boxes on the contact page](images/contact-boxes.png)
 
@@ -309,7 +309,7 @@ And stacked on top of each other on a mobile:
 #### Address and map
 
 The top of this section has the common banner.
-This sections features the address in a box in the same style as the contact boxes and an embedded google map underneath.
+This section features the address in a box in the same style as the contact boxes and an embedded Google Map underneath.
 
 ![Address and map section](images/address-map.png)
 
@@ -329,15 +329,15 @@ The page is responsive on a mobile:
 
 ### Future implementations
 
-* Confirmation page after submit button and form that works
+* Confirmation page after the submit button is pressed and a form that works
 
-There was some discussion in our weekly stand up about whether or not a "Thank you" page should be used after submitting the form to provide a positive user experience. The conclusion was that there should not be a "Thank you" page as this would be a lie (the data doesn't go anywhere and they won't get a reply). The recommendation was to use the Code Institute form dump so submitted information can be seen. 
+There was some discussion in our weekly stand-up about whether or not a "Thank you" page should be used after submitting the form to provide a positive user experience. The conclusion was that there should not be a "Thank you" page as this would be a lie (the data doesn't go anywhere and they won't get a reply). The recommendation was to use the Code Institute form dump so that submitted information could be seen. 
 
-In future, I would lke to learn the skills to be able to ensure the form is fully functioning and as such could implement a "Thank you" page. 
+In the future, I would like to learn the skills to be able to ensure the form is fully functioning and as such could implement a "Thank you" page. 
 
 * Contact buttons
 
-In the contact boxes I would like the phone number and email to be interactive and to "copy to clipboard" when clicked. 
+In the contact boxes, I would like the phone number and email to be interactive and to "copy to clipboard" when clicked. 
 
 * More detailed information regarding repairs
 
@@ -351,22 +351,22 @@ Many customers of the business are not knowledgeable about repairs or maintenanc
 ## Tools and Technologies Used
  - Custom HTML and CSS were used throughout.
  - [Bootstrap v5.1.3](https://getbootstrap.com/docs/5.1/getting-started/introduction/) was used in this project at various points for layout, form styling, creating cards and the navbar. I made some adaptations to the bootstrap styling at various points too. 
- - CSS Flexbox was also used for layout purposes (outside of bootstrap) - the reason I used flexbox without bootstrap was that it felt lighter and more customisable in places in addition to giving me good practice of using both flexbox and bootstrap for layout. 
+ - CSS Flexbox was also used for layout purposes (outside of Bootstrap) - the reason I used Flexbox without Bootstrap was that it felt lighter and more customisable in places in addition to giving me good practice of using both flexbox and bootstrap for layout. 
  - Git for version control
  - Github for saving and storing files
- - VS Code for locally coding my project (to replace the use of online IDE such as gitpod or codeanywhere)
+ - VS Code for locally coding my project (to replace the use of online IDE such as Gitpod or Codeanywhere)
  - [Google Fonts](https://fonts.google.com/) for the font used in the website
- - Google developer tools to to test the website for responsiveness and to fix bugs.
- - [Picture to people](https://www.picturetopeople.org/text_generator/others/transparent/transparent-text-generator.html "Picture to People website") was used to generate the title with transparent background that overlays the hero image. 
+ - Google developer tools to test the website for responsiveness and to fix bugs.
+ - [Picture to people](https://www.picturetopeople.org/text_generator/others/transparent/transparent-text-generator.html "Picture to People website") was used to generate the title with a transparent background that overlays the hero image. 
  - [Image Resizer](https://imageresizer.com "Image Resizer Website") was used to compress and resize images. 
  - [Convertio](https://convertio.co/) for turning jpg to webp
  - [Coolors](https://coolors.co/ "Coolors Website") was used to generate the colour palette. 
  - Google Maps API to embed a map using an iframe.
- - [Font Awesome](https://fontawesome.com/) was used for all icons used in my page.
+ - [Font Awesome](https://fontawesome.com/) was used for all icons used on my page.
  - [Am I Responsive?](https://www.google.com/search?q=am+i+responsive&rlz=1C1ONGR_en-GBGB985GB985&oq=am+i+respon&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDkyBggCEEUYQDIGCAMQRRhBMgYIBBBFGDwyBggFEEUYPNIBCDE4NTRqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8) to show how the website looks on different size screens and devices.
  - WAVE chrome extension for accessibility testing
  - WCAG Contrast checker chrome extension for colour contrast checking
-- [W3C Validator](https://validator.w3.org/) for validating html and css
+- [W3C Validator](https://validator.w3.org/) for validating html and CSS
 
 
 ## Testing and Validation
@@ -377,9 +377,9 @@ Testing and validation have been included in a separate [file](testing.md).
 
 ### Deployment
 
-Github Pages was used to deploy the live website. The instructions to achieve this are below:
+GitHub Pages was used to deploy the live website. The instructions to achieve this are below:
 
-1. Log in to Github
+1. Log in to GitHub
 1. Find the repository for this project (double-seven-guitars)
 3. Click on the Settings button at the top of the screen.
 4. Click on the Pages button on the left navigation bar.
@@ -393,7 +393,7 @@ Github Pages was used to deploy the live website. The instructions to achieve th
 #### How to Fork:
 To fork the double-seven-guitars repository:
 
-1. Log in to Github
+1. Log in to GitHub
 2. Go to the repository for this project (double-seven-guitars)
 3. Click the Fork button on the top right
 
@@ -417,7 +417,7 @@ To fork the double-seven-guitars repository:
 
 Any images that are not listed below have been sourced from the business owner and used with their permission.
 
-- Hero Image on main page (with guitar brand name removed):  Photo by [Annie Spratt](https://unsplash.com/@anniespratt) on [Unsplash](https://unsplash.com/photos/a-black-electric-guitar-with-a-black-background-LtD7qn9k108)
+- Hero Image on the home page (with guitar brand name removed):  Photo by [Annie Spratt](https://unsplash.com/@anniespratt) on [Unsplash](https://unsplash.com/photos/a-black-electric-guitar-with-a-black-background-LtD7qn9k108)
 
 - Hero image on services page: Photo by [Diego Catto](https://unsplash.com/@diegocatto) on [Unsplash](https://unsplash.com/photos/grayscale-photography-of-guitar-heads-DI6ywiG5N0g)
 
@@ -425,14 +425,14 @@ Any images that are not listed below have been sourced from the business owner a
 
 ### Code 
 #### General
-- W3Schools for general help in understanding html and css
-- Code Institute learning material used to develop general html and css knowledge
+- W3Schools for general help in understanding html and CSS
+- Code Institute learning material used to develop general html and CSS knowledge
 - Bootstrap documentation for [Bootstrap v5.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/) for help in understanding the bootstrap classes and how to apply them. 
-- [CSS tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) website for general help in understanding css flexbox
+- [CSS tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) website for general help in understanding CSS Flexbox
 - For help with the readme, Kera Cudmore's [repository](https://github.com/kera-cudmore/readme-examples/blob/main/README.md#whats-a-readme) was used.
 
 #### Specific Code 
-- To overcome the issue with rounded corners taking ellipse shape (see bugs and code issue): [Stack Overflow](https://stackoverflow.com/questions/31617136/avoid-elliptical-shape-in-css-border-radius#:~:text=If%20the%20value%20exceeds%20half,pill%20shape%20on%20rectangular%20elements.&text=border%2Dradius%3A%2050%25%20will,your%20div%20is%20not%20square.)
+- To overcome the issue with rounded corners taking an ellipse shape (see bugs and code issue): [Stack Overflow](https://stackoverflow.com/questions/31617136/avoid-elliptical-shape-in-css-border-radius#:~:text=If%20the%20value%20exceeds%20half,pill%20shape%20on%20rectangular%20elements.&text=border%2Dradius%3A%2050%25%20will,your%20div%20is%20not%20square.)
 
 - To overcome the issue with the fieldset not overlapping the border in bootstrap: https://github.com/twbs/bootstrap/issues/32548. Code used:
 
@@ -444,18 +444,18 @@ My code:
 ```
 - Used this [code](https://codepen.io/xjorye/pen/QgqeEx) to put checkboxes in front and not after labels. 
 
--  I used the code from [this](https://stackoverflow.com/questions/9724035/how-can-one-create-an-overlay-in-css) stack overflow forum to create the opaque overlay on gallery cards. Code from forum:
+-  I used the code from [this](https://stackoverflow.com/questions/9724035/how-can-one-create-an-overlay-in-css) stack overflow forum to create the opaque overlay on gallery cards. Code from the forum:
 
-![Code used to create a css overlay](./images/css-overlay-code.png)
+![Code used to create a CSS overlay](./images/css-overlay-code.png)
 
 My code: 
 ```
 box-shadow: inset 0px 0px 0 1000px rgba(0,0,0,0.5);
 ```
 
-- I used [this](https://stackoverflow.com/questions/54948759/css-animation-on-hover-snaps-back-to-default-size-after-hovering-away) Stack Overflow Forum To avoid snap back after transformation (see bugs and fixes). Code from forum: 
+- I used [this](https://stackoverflow.com/questions/54948759/css-animation-on-hover-snaps-back-to-default-size-after-hovering-away) Stack Overflow Forum To avoid snap-back after transformation (see bugs and fixes). Code from forum: 
 
-![Specific code used to fix snap back](./images/snap-back-code.png)
+![Specific code used to fix snap-back](./images/snap-back-code.png)
 
 My code: 
 ``` 
@@ -473,9 +473,9 @@ My code:
 
 The content was written by myself and by the owner of Double Seven Guitars.
 
-## Acknowledgements
+## Acknowledgments
 
-* Matt Bennett - the owner of Double Seven Guitars, for kindly letting my use his business for my project and for assisting with images and content. 
-* Slack Oct 2023 Cohort - for helping with issues I posted on slack.
+* Matt Bennett - the owner of Double Seven Guitars, for kindly letting me use his business for my project and for assisting with images and content. 
+* Slack Oct 2023 Cohort - for helping with issues I posted on Slack.
 * Alan Bushell - Oct 2023 Cohort Facilitator, for the helpful advice and guidance offered in the weekly stand-ups. 
 * Okwudiri Okoro - Code Institute Mentor, for the feedback on my project.

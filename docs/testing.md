@@ -4,7 +4,7 @@
 
 * [Bugs, Problems and Fixes](#bugs-problems-and-fixes-encountered-during-the-building-process)
     * [Getting the title image to overlap hero](#getting-the-title-image-to-overlap-the-hero-image)
-    * [Ellipse corners on boxes](#corners-on-boxes-were-appearing-as-an-ellipse-shape-rather-than-quarter-circles)
+    * [Ellipse corners on boxes](#corners-on-boxes-appeared-as-an-ellipse-shape-rather-than-quarter-circles)
     * [Navbar toggler not closing](#bootstrap-navbar-toggler-wasnt-closing-when-the-burger-icon-was-pushed)
     * [Changing the bootstrap version](#changing-the-bootstrap-version-to-ensure-css-validation)
     * [Git commit messages](#git-commit-messages)
@@ -36,11 +36,11 @@
 
 ### Getting the title image to overlap the hero image 
 
-Initially, I made the container position relative and the hero image and the title image position absolute. This worked to create the overlapping effect but then caused an issue with the rest of the content. The remainder of the content was then being push up behind the hero image.
+Initially, I made the container position relative, the hero image and the title image position absolute. This worked to create the overlapping effect but then caused an issue with the rest of the content. The remainder of the content was then being pushed up behind the hero image.
 
 First, I tried to put position: absolute; only on the title to leave the hero image a the default position: static;. This fixed the issue of other content being pushed under the hero image, and the title was in the correct place but was sitting behind the hero image. Changing the z-index didn't help. 
 
-After much trial and error, I realised that change the order of the html meant the if I put the title image first, it would appear on top of the hero. See code: 
+After much trial and error, I realised that changing the order of the HTML meant that if I put the title image first, it would appear on top of the hero. See code: 
 
 HTML: 
 ```
@@ -73,21 +73,21 @@ CSS:
 }
 ```
 
-### Corners on boxes were appearing as an ellipse shape rather than quarter circles: 
+### Corners on boxes appeared as an ellipse shape rather than quarter circles: 
 
 Used [this](https://stackoverflow.com/questions/31617136/avoid-elliptical-shape-in-css-border-radius#:~:text=If%20the%20value%20exceeds%20half,pill%20shape%20on%20rectangular%20elements.&text=border%2Dradius%3A%2050%25%20will,your%20div%20is%20not%20square.) forum to gain better insight into border radius and changed my measures from relative (%) to absolute (px) and this resolved the issue.
 
 ### Bootstrap Navbar toggler wasn't closing when the burger icon was pushed
 
-After a lot of very close checking of my code, I found [this](https://www.youtube.com/watch?v=ulM3-nRABgk&ab_channel=ByteGrad) video which pointed me to look at the JS popper that I had put in separately to the other bootstrap links. This extra popper was not needed and was causing this issue. Removing it solved the problem. 
+After a lot of very close checking of my code, I found [this](https://www.youtube.com/watch?v=ulM3-nRABgk&ab_channel=ByteGrad) video which pointed me to look at the JS popper that I had put in separately to the other Bootstrap links. This extra popper was not needed and was causing this issue. Removing it solved the problem. 
 
-### Changing the bootstrap version to ensure CSS validation 
+### Changing the Bootstrap version to ensure CSS validation 
 
-I left my CSS validation right until the end and then realised the latest version of bootstrap was not validating. I changed it to the newest version that would validate. This caused my "hamburger" dropdown icon to disappear. I fixed this by using a font awesome icon instead and styling it to look visually pleasing. Another issue that arose was that clicked links or ones that were hovered over were not appearing blue so I had to target the links correctly with the colour I wanted in my stylesheet.
+I left my CSS validation right until the end and then realised the latest version of Bootstrap was not validating. I changed it to the newest version that would validate. This caused my "hamburger" dropdown icon to disappear. I fixed this by using a font awesome icon instead and styling it to look visually pleasing. Another issue that arose was that clicked links or ones that were hovered over were not appearing blue so I had to target the links correctly with the colour I wanted in my stylesheet.
 
 ### Git commit messages
 
-I wanted to use simple and consistent wording for my commit messages but initially used "build" for all the initial code that was "first time" code, however I realised this wasn't common usage. After doing some reading I decided on the following for all remaining commit messages.
+I wanted to use simple and consistent wording for my commit messages but initially used "build" for all the initial code that was "first-time" code, however, I realised this wasn't common usage. After doing some reading I decided on the following for all remaining commit messages.
 
 | Commit message | Meaning 
 | --- |--- |
@@ -96,7 +96,7 @@ I wanted to use simple and consistent wording for my commit messages but initial
 | **refactor** | any code changes that didn't affect the output or structure of the code significantly such as renaming classes, removing commented out code, fixing spelling errors, changing images that were converted to a different type etc.  |
 |**docs** | anything related to the readme or testing files|
 
-In future I would look to implement something like the following to make them more descriptive:
+In the future, I would look to implement something like the following to make them more descriptive:
 
 ![List of commit messages](images/commit-messages.png)
 
@@ -104,7 +104,7 @@ In future I would look to implement something like the following to make them mo
 
 ### Unfixed bugs
 
-The form is not functional in that the data is not taken or stored anywhere appropriate. In this instance the Code Institute Form Dump was used. This functionality is out of the scope of this course thus far and so has been left out. 
+The form is not functional in that the data is not taken or stored anywhere appropriate. In this instance, the Code Institute Form Dump was used. This functionality is out of the scope of this course thus far and so has been left out. 
 
 ## Testing for accessibility 
 
@@ -139,7 +139,7 @@ Removed "click here" from first button and add visually hidden span to describe 
 
 WAVE IDENTIFIED (fixes completed on all pages before running remaining tests):
 
-- heading level 5 on images was inappropriate use of heading and skipped other heading levels. Rectified by changing to p tag. 
+- heading level 5 on images was an inappropriate use of heading and skipped other heading levels. Rectified by changing to p tag. 
 
 3. Check colour contrast using WCAG Color contract checker chrome extension
 
@@ -155,7 +155,7 @@ Chrome extension identified that the starred writing at the bottom of the servic
 
 ## Functionality Testing 
 
-The following tests were completed on both a windows laptop and an android phone, primary tests on chrome and then firefox and edge were also tested. 
+The following tests were completed on both a Windows laptop and an Android phone, primary tests on Chrome and then Firefox and edge were also tested. 
 
 ### Tests
 
@@ -211,15 +211,15 @@ Change incorrect value
 
 ### Method for testing and breakpoints used
 
-I will use google chrome and firefox developer tools "responsive" mode to slowly move the screen to make it continuously larger within certain breakpoints.
+I will use Google Chrome and Firefox developer tools in "responsive" mode to slowly move the screen to make it continuously larger within certain breakpoints.
 
-I have used the bootstrap breakpoints for this testing. 
+I have used the Bootstrap breakpoints for this testing. 
 
 I will also test the exact resolutions of a common mobile, tablet and monitor. I used 360x800, 768x1024 and 1920x1080. I decided these based on popularity of use using [this](https://www.linkedin.com/pulse/most-popular-screen-resolutions-mobile-tablet-desktop-elziady/) article. 
 
 ### Testing 
 
-All pages were tested, and developer tools were used on both chrome and firefox. 
+All pages were tested, and developer tools were used on both Chrome and Firefox. 
 
 |   Screen width | Expected Outcome  | Pass/Fail |
 | ---------------------------- | ------------- | --------- |
@@ -242,13 +242,13 @@ All pages were tested, and developer tools were used on both chrome and firefox.
 
 - During the responsiveness testing all of the testing was done on Chrome and  Firefox. 
 
-- I also used this website on a variety of android phones and one iphone, and checked it was working as expected. 
+- I also used this website on a variety of Android phones and checked it was working as expected. 
 
-- I did not have access to any apple products so I couldn't do any full testing with safari without spending money for simulators. 
+- I did not have access to any Apple products so I couldn't do any full testing with Safari without spending money on simulators. 
 
 ## Testing User Stories
 
-- **A: As a first time visitor, I want to see the prices clearly, so that I can decide if the repair is in my price range.** 
+- **A: As a first-time visitor, I want to see the prices clearly, so that I can decide if the repair is in my price range.** 
 
 A price list can be accessed from the services page clearly labelled in the nav bar:
 
@@ -258,7 +258,7 @@ Services linked in primary info on home page:
 
 ![Primary Info](images/testing/services-home-page.png)
 
-- **B: As a first time visitor, I want to understand how to get in contact, so that I can request a repair on my guitar.**
+- **B: As a first-time visitor, I want to understand how to get in contact, so that I can request a repair on my guitar.**
 
 Contact details can be accessed multiple times throughout the page.
 
@@ -286,13 +286,13 @@ Link to contact page on services page:
 
 ![Home page services offered section](images/testing//services-home-page.png)
 
-- **C: As a first time visitor, I want to see the reviews of the business, so that I can see how well-known and liked they are and thus have confidence in the guitar repair (particularly important for experienced guitar owner).**
+- **C: As a first-time visitor, I want to see the reviews of the business, so that I can see how well-known and liked they are and thus have confidence in the guitar repair (particularly important for experienced guitar owner).**
 
 Reviews are at the bottom of the home page:
 
 ![Reviews on home page](images/testing/testimonials-home-page.png)
 
-•	**D: As a first time visitor, I want to check the location of the business, so that I can see if it is feasable to drop off/pick up my guitar.**
+•	**D: As a first-time visitor, I want to check the location of the business, so that I can see if it is feasable to drop off/pick up my guitar.**
 
 Mention of location (Lechlade) in the primary info section: 
 
@@ -306,7 +306,7 @@ Address and map on contact page:
 
 ![Reviews on home page](images/testing/address-map.png)
 
-- **E: As a novice guitar owner (first time visit), I want to see a clear and easy-to-understand list of services, so that I can choose the appropriate service.** AND  **E: As a novice guitar owner (first time visit), I want to be given information of about types of repairs and maintenance so that I can understand what services I might need. (F)**
+- **E: As a novice guitar owner (first-time visit), I want to see a clear and easy-to-understand list of services, so that I can choose the appropriate service.** AND  **E: As a novice guitar owner (first-time visit), I want to be given information of about types of repairs and maintenance so that I can understand what services I might need. (F)**
 
 Service information give on home page: 
 
@@ -318,51 +318,51 @@ Service list on services page:
 
 If the novice guitar owner is not sure which service to pick, it is referenced that the business can diagnose the problem easily and there is also a form box that says "I'm not sure, help!
 
-- **G: As an experienced guitar owner (first time visit), I want to see whether more complicated repairs are available, so that I can decide if my problem can be resolved by the business** AND
-**H: As an experienced guitar owner (first time visit), I want to see what types of repairs the business has experience in, so that I can trust my more complicated guitar repair with the business**
+- **G: As an experienced guitar owner (first-time visit), I want to see whether more complicated repairs are available, so that I can decide if my problem can be resolved by the business** AND
+**H: As an experienced guitar owner (first-time visit), I want to see what types of repairs the business has experience in, so that I can trust my more complicated guitar repair with the business**
 
-On the services page there is a gallery that includes more complicated/niche repairs to give confidence of business skill: 
+On the services page, there is a gallery that includes more complicated/niche repairs to give confidence in business skill: 
 
 ![Gallery of fixes](images/testing/gallery-services-page.png)
 
-On the services page there is a video of a repair being conducted to give confidence of business skill:
+On the services page, there is a video of a repair being conducted to give confidence in business skill:
 
 ![Video of a fix](images/testing/vid-services-page.png)
 
-FUTURE IMPLEMENTATION: This user story is somewhat satisfied but there could more detailed images and videos of repairs as well as detailed explanation of types of fixes. This was unavailable at this time due to the limited nature of images provided by the business but could be in a future implementation. 
+FUTURE IMPLEMENTATION: This user story is somewhat satisfied but there could be more detailed images and videos of repairs as well as detailed explanations of types of fixes. This was unavailable at this time due to the limited nature of images provided by the business but could be in a future implementation. 
 
-- **I: As a returning visitor, I want to check the contact details again to ensure I have them correct for a request of another repair**
+- **I: As a returning visitor, I want to check the contact details again to ensure I have them correct for a request for another repair**
 
 Same as User Story B above. 
 
 
 ## Validation 
 
-A note on html and css validation: all pages initially had some failures which were educational. A lot were concerned with wrapping a button in an a tag, or vice versa. Others were minor issues that could be resolved easily. The major issues was the version of bootstrap I was using not validating. In hindsight, I should have been using the validator as I went along to avoid having to bulk changes near the end of the project.
+A note on HTML and CSS validation: all pages initially had some failures which were educational. A lot were concerned with wrapping a button in an a tag, or vice versa. Others were minor issues that could be resolved easily. The major issue was the version of Bootstrap I was using not validating. In hindsight, I should have been using the validator as I went along to avoid having to bulk changes near the end of the project.
 
-### index.html html validation
+### index.html HTML validation
 
 ![Proof of html validation for index page](images/validation/index-html-validation.png)
 
-### contact.html html validation
+### contact.html HTML validation
 
-![Proof of html validation for contact page](images/validation/contact-html-validation.png)
+![Proof of HTML validation for contact page](images/validation/contact-html-validation.png)
 
-### services.html html validation
+### services.html HTML validation
 
 ![Proof of html validation for services page](images/validation/services-html-validation.png)
 
-### 404.html html validation
+### 404.html HTML validation
 
-![Proof of html validation for 404 page](images/validation/404-html-validation.png)
+![Proof of HTML validation for 404 page](images/validation/404-html-validation.png)
 
 ### CSS validation 
 
 ![CSS validation failure message](images/validation/css-fail.png)
 
-This failed because of the bootstrap version I was using. I made some updates which are detailed in the [bugs section](#bugs-problems-and-fixes-encountered-during-the-building-process) of this page. I repeated all tests with this new version to ensure no expected issues arose from changing the bootstrap version. 
+This failed because of the Bootstrap version I was using. I made some updates which are detailed in the [bugs section](#bugs-problems-and-fixes-encountered-during-the-building-process) of this page. I repeated all tests with this new version to ensure no expected issues arose from changing the Bootstrap version. 
 
-All tests passed and it now passed the css validation: 
+All tests passed and it now passed the CSS validation: 
 
 ![CSS proof of passing validation](images/validation/css-validation-pass.png)
 
@@ -389,7 +389,7 @@ I improved the accessibility and best practices by adding a title to my iframe a
 
 ![Second try contact lighthouse results](images/testing/lh-desktop-contact-2.png)
 
-The best practice was not 100% because of an issue with third party cookies from the maps. I tried to see if there was sometimes I could do to rectify this but felt it was not within the scope of this course.
+The best practice was not 100% because of an issue with third-party cookies from the maps. I tried to see if there was something I could do to rectify this but felt it was not within the scope of this course.
 
 ### Mobile 
 
