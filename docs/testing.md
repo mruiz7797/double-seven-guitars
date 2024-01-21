@@ -7,6 +7,7 @@
     * [Ellipse corners on boxes](#corners-on-boxes-were-appearing-as-an-ellipse-shape-rather-than-quarter-circles)
     * [Navbar toggler not closing](#bootstrap-navbar-toggler-wasnt-closing-when-the-burger-icon-was-pushed)
     * [Changing the bootstrap version](#changing-the-bootstrap-version-to-ensure-css-validation)
+    * [Git commit messages](#git-commit-messages)
     * [Other](#other-small-issues-as-mentioned-in-credits)
 
 * [Accessibility Testing](#testing-for-accessibility)
@@ -35,7 +36,7 @@
 
 ### Getting the title image to overlap the hero image 
 
-Initially, I made the container position relative and the hero image and the title image position absolute. This worked to create the overlapping effect but then cuased an issue with the rest of the content. The remainder of the content was then being push up behind the hero image.
+Initially, I made the container position relative and the hero image and the title image position absolute. This worked to create the overlapping effect but then caused an issue with the rest of the content. The remainder of the content was then being push up behind the hero image.
 
 First, I tried to put position: absolute; only on the title to leave the hero image a the default position: static;. This fixed the issue of other content being pushed under the hero image, and the title was in the correct place but was sitting behind the hero image. Changing the z-index didn't help. 
 
@@ -84,6 +85,21 @@ After a lot of very close checking of my code, I found [this](https://www.youtub
 
 I left my CSS validation right until the end and then realised the latest version of bootstrap was not validating. I changed it to the newest version that would validate. This caused my "hamburger" dropdown icon to disappear. I fixed this by using a font awesome icon instead and styling it to look visually pleasing. Another issue that arose was that clicked links or ones that were hovered over were not appearing blue so I had to target the links correctly with the colour I wanted in my stylesheet.
 
+### Git commit messages
+
+I wanted to use simple and consistent wording for my commit messages but initially used "build" for all the initial code that was "first time" code, however I realised this wasn't common usage. After doing some reading I decided on the following for all remaining commit messages.
+
+| Commit message | Meaning 
+| --- |--- |
+|**feat** | adding or removing of features | 
+|**fix** | fixing any problems, whether that was during the development process or during the testing phase.  |
+| **refactor** | any code changes that didn't affect the output or structure of the code significantly such as renaming classes, removing commented out code, fixing spelling errors, changing images that were converted to a different type etc.  |
+|**docs** | anything related to the readme or testing files|
+
+In future I would look to implement something like the following to make them more descriptive:
+
+![List of commit messages](images/commit-messages.png)
+
 ### Other small issues as mentioned in credits
 
 ## Testing for accessibility 
@@ -109,7 +125,7 @@ I left my CSS validation right until the end and then realised the latest versio
 
 WAVE IDENTIFIED (fixes completed on all pages before running remaining tests): 
 - no h1 on the page   
-This was corrected by adding a h1 to the hero image section but applying to the [boostrap "visually-hidden" class](https://getbootstrap.com/docs/5.0/helpers/visually-hidden/)
+This was corrected by adding a h1 to the hero image section but applying to the [bootstrap "visually-hidden" class](https://getbootstrap.com/docs/5.0/helpers/visually-hidden/)
 - empty link (facebook icon)   
 This has been corrected by adding a span with "visually-hidden" class that says "Navigate to Facebook". Advice taken from [here](https://kittygiraudel.com/2020/12/10/accessible-icon-links/) and [here](https://a11y-101.com/development/icons-and-links#:~:text=Enhance%20icon%20with%20text,the%20icon%20within%20the%20link.&text=VoiceOver%20will%20read%20link%2C%20home,%3A%20URL%20comma%20read%2Donly%20.). 
 - links containing "click here" or just "here" should be reworded   
@@ -123,7 +139,7 @@ WAVE IDENTIFIED (fixes completed on all pages before running remaining tests):
 
 3. Check colour contrast using WCAG Color contract checker chrome extension
 
-Chrome extension identifiedthat the starred writing at the bottom of the service list did not have enough contrast so colour changed.
+Chrome extension identified that the starred writing at the bottom of the service list did not have enough contrast so colour changed.
 
 ### Repeated Tests:
 
@@ -380,3 +396,5 @@ The best practice was not 100% because of an issue with third party cookies from
 #### Contact Page
 
 ![Mobile contact page lighthouse result](images/testing/LH-mobile-contact.png)
+
+[def]: #tests

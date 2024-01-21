@@ -19,6 +19,12 @@ This website is created for the business Double Seven Guitars which is primarily
 
 2. [Features](#features-1)
    - 
+   * [Footer](#footer)
+   * [Navigation Bar](#navigation-bar)
+   * [Home Page](#home-page-1)
+   * [Services Page](#services-page-1)
+   * [Contact Page](#contact-page-1)
+   * [404 Page](#404html-page)
 
 3. [Tools and Technologies Used](#tools-and-technologies-used-1)
    -
@@ -26,15 +32,15 @@ This website is created for the business Double Seven Guitars which is primarily
 4. [Testing](#testing-and-validation)
    -
 
-5. [Deployment and Local Development](#deployment-1)
+5. [Deployment and Local Development](#deployment-and-local-development-1)
    -
-6. [Credits](#credits)
+6. [Credits](#credits-1)
    -
    * [Images](#images)
    * [Code](#code)
    * [Content](#content)
 
-7. [Acknowledgements](#acknowledgements)
+7. [Acknowledgements](#acknowledgements-1)
    -
 ## UX Design
 
@@ -61,7 +67,7 @@ Consumers want a method to understand:
 - As a first time visitor, I want to see the prices clearly, so that I can decide if the repair is in my price range. (A) 
 - As a first time visitor, I want to understand how to get in contact, so that I can request a repair on my guitar. (B) 
 - As an first time visitor, I want to see the reviews of the business, so that I can see how well-known and liked they are and thus have confidence in the guitar repair (particularly important for experienced guitar owner). (C) 
-- As a first time visitor, I want to check the location of the business, so that I can see if it is feasable to drop off/pick up my guitar. 
+- As a first time visitor, I want to check the location of the business, so that I can see if it is feasible to drop off/pick up my guitar. 
 
 #### Novice guitar owner (first time visit)
 - As a novice guitar owner (first time visit), I want to see a clear and easy-to-understand list of services, so that I can choose the appropriate service. (E) 
@@ -88,7 +94,7 @@ Consumers want a method to understand:
 | To showcase the types of repairs completed by the business | 4 | 5
 | To highlight good reviews of the business | 5 | 5
 | To provide contact details of the business | 5 | 5
-| To provide information about the owner's work history as a racecar mechanic | 3 | 5
+| To provide information about the owner's work history as a race car mechanic | 3 | 5
 | Totals | 31 | 40
 
 As these totals are quite different, this has highlighted that not all of these should be implemented. 
@@ -127,7 +133,7 @@ The website will contain three pages (plus a 404.html):
 
 - Services Page: this will contain a list of services and corresponding prices and some videos and images of repairs completed by the business.
 
-- Contact Page: This will include phone number, email adress, facebook link, contact form and location information such as address and map. 
+- Contact Page: This will include phone number, email address, facebook link, contact form and location information such as address and map. 
 
 ### Skeleton - wireframes
 
@@ -150,7 +156,7 @@ The wireframes below have been adapted slightly, with buttons being added at var
 
 #### Colour Scheme
 
-The main business logo has been discarded (with owners permission): 
+The main business logo has been discarded: 
 
 ![Original Double Seven Logo](./images/Logo-v2.png)
 
@@ -186,14 +192,14 @@ This is common to all pages, contains contact details and the facebook icon link
 ![Footer of home page](images/footer.png)
 
 ### Navigation Bar
-This is common to all pages. Navigation bar that uses the business logo as a link for the home page. The navigation link are on the right side and the active page is a different colour and made larger: 
+This is common to all pages. Navigation bar that uses the business logo as a link for the home page. The navigation links are on the right side and the active page is a different colour and made larger: 
 
 ![Navigation bar](images/nav-bar.png)
 On a mobile device the navigation links collapse: 
 
 ![Mobile Navigation Bar](images/nav-bar-mobile.png)
 
-The contact navigation link has a further dropdown so preferred communication can be chose and so location is easily found: 
+The contact navigation link has a further dropdown so preferred communication can be chosen and so location is easily found: 
 
 ![Contact link dropdown](images/contact-dropdown.png)
 
@@ -223,7 +229,7 @@ It is responsive a shrinks with the screen size and margin is maintained:
 
 #### Services Section 
 
-This sections includes a dark grey banner that appear, consistnetly, on all pages. Services are bulleted with icons and button that leads directly to the table of services on the services page:
+This sections includes a dark grey banner that appear, consistently, on all pages. Services are bulleted with icons and button that leads directly to the table of services on the services page:
 
 ![Services section of home page](images/services-section.png)
 
@@ -241,9 +247,9 @@ Responsive on a medium screen:
 
 ![Testimonials section medium screen](images/testimonials-section-medium.png)
 
-Responsive on a mobile - on these smaller screens the testimonals appear as a carousel for people to click through: 
+Responsive on a mobile - on these smaller screens the testimonials appear as a carousel for people to click through: 
 
-![Testimonials section on a mobile feating a carousel](images/testimonials-section-mobile.png)
+![Testimonials section on a mobile featuring a carousel](images/testimonials-section-mobile.png)
 
 
 
@@ -323,22 +329,22 @@ The page is responsive on a mobile:
 
 ## Tools and Technologies Used
  - Custom HTML and CSS were used throughout.
- - [Boostrap v5.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/) was used in this project at various points for layout, form styling, creating cards and the navbar. I made some adaptations to the bootstrap styling at various points too. 
+ - [Bootstrap v5.1.3](https://getbootstrap.com/docs/5.1/getting-started/introduction/) was used in this project at various points for layout, form styling, creating cards and the navbar. I made some adaptations to the bootstrap styling at various points too. 
  - CSS Flexbox was also used for layout purposes (outside of bootstrap) - the reason I used flexbox without bootstrap was that it felt lighter and more customisable in places in addition to giving me good practice of using both flexbox and bootstrap for layout. 
  - Git for version control
  - Github for saving and storing files
  - VS Code for locally coding my project (to replace the use of online IDE such as gitpod or codeanywhere)
  - [Google Fonts](https://fonts.google.com/) for the font used in the website
- - Google developer tools to to test the wesbite for responsiveness and to fix bugs.
+ - Google developer tools to to test the website for responsiveness and to fix bugs.
  - [Picture to people](https://www.picturetopeople.org/text_generator/others/transparent/transparent-text-generator.html "Picture to People website") was used to generate the title with transparent background that overlays the hero image. 
  - [Image Resizer](https://imageresizer.com "Image Resizer Website") was used to compress and resize images. 
  - [Convertio](https://convertio.co/) for turning jpg to webp
- - [Coolors](https://coolors.co/ "Coolors Website") was used to generate the colour pallete. 
+ - [Coolors](https://coolors.co/ "Coolors Website") was used to generate the colour palette. 
  - Google Maps API to embed a map using an iframe.
  - [Font Awesome](https://fontawesome.com/) was used for all icons used in my page.
  - [Am I Responsive?](https://www.google.com/search?q=am+i+responsive&rlz=1C1ONGR_en-GBGB985GB985&oq=am+i+respon&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDkyBggCEEUYQDIGCAMQRRhBMgYIBBBFGDwyBggFEEUYPNIBCDE4NTRqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8) to show how the website looks on different size screens and devices.
  - WAVE chrome extension for accessibility testing
- - WCAG Contrast checker chrome extension for colour constrast checking
+ - WCAG Contrast checker chrome extension for colour contrast checking
 - [W3C Validator](https://validator.w3.org/) for validating html and css
 
 
