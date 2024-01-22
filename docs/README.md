@@ -159,7 +159,7 @@ The wireframes below have been adapted slightly, with buttons being added at var
 
 The main business logo has been discarded: 
 
-![Original Double Seven Logo](./images/logo-v2.png)
+![Original Double Seven Logo](./images/business-logo.png)
 
 But the 77 element has been retained as the logo for the website:
 
@@ -195,7 +195,8 @@ This is common to all pages, contains contact details and the Facebook icon link
 ### Navigation Bar
 This is common to all pages. The navigation bar that uses the business logo as a link for the home page. The navigation links are on the right side and the active page is a different colour and made larger: 
 
-![Navigation bar](images/nav-bar.png)
+![Navigation bar](images/nav-bar.png)  
+
 On a mobile device, the navigation links collapse: 
 
 ![Mobile Navigation Bar](images/nav-bar-mobile.png)
@@ -306,6 +307,16 @@ And stacked on top of each other on a mobile:
 
 ![Contact boxes on a mobile screen](images/contact-boxes-mobile.png)
 
+#### Contact Form
+
+All fields apart from fieldset are required. The submit button follows the style of other buttons on the website. 
+
+![Form on desktop](images/contact-form.png)
+
+It is responsive and layout is different on a mobile:
+
+![Form on mobile](images/contact-form-mobile.png)
+
 #### Address and map
 
 The top of this section has the common banner.
@@ -366,7 +377,7 @@ Many customers of the business are not knowledgeable about repairs or maintenanc
  - [Am I Responsive?](https://www.google.com/search?q=am+i+responsive&rlz=1C1ONGR_en-GBGB985GB985&oq=am+i+respon&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDkyBggCEEUYQDIGCAMQRRhBMgYIBBBFGDwyBggFEEUYPNIBCDE4NTRqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8) to show how the website looks on different size screens and devices.
  - WAVE chrome extension for accessibility testing
  - WCAG Contrast checker chrome extension for colour contrast checking
-- [W3C Validator](https://validator.w3.org/) for validating html and CSS
+- [W3C Validator](https://validator.w3.org/) for validating HTML and CSS
 
 
 ## Testing and Validation
@@ -425,9 +436,9 @@ Any images that are not listed below have been sourced from the business owner a
 
 ### Code 
 #### General
-- W3Schools for general help in understanding html and CSS
-- Code Institute learning material used to develop general html and CSS knowledge
-- Bootstrap documentation for [Bootstrap v5.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/) for help in understanding the bootstrap classes and how to apply them. 
+- W3Schools for general help in understanding HTML and CSS
+- Code Institute learning material used to develop general HTML and CSS knowledge
+- Bootstrap documentation for [Bootstrap v5.1.3](https://getbootstrap.com/docs/5.1/getting-started/introduction/) for help in understanding the bootstrap classes and how to apply them. 
 - [CSS tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) website for general help in understanding CSS Flexbox
 - For help with the readme, Kera Cudmore's [repository](https://github.com/kera-cudmore/readme-examples/blob/main/README.md#whats-a-readme) was used.
 
