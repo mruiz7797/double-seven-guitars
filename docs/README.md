@@ -317,6 +317,8 @@ It is responsive and layout is different on a mobile:
 
 ![Form on mobile](images/contact-form-mobile.png)
 
+The form takes you to the Code Institute form dump and is therefore not fully functioning. This is because to implement a form that works correctly is outside the remit of this course at this time.
+
 #### Address and map
 
 The top of this section has the common banner.
