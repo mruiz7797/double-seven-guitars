@@ -83,7 +83,7 @@ After a lot of very close checking of my code, I found [this](https://www.youtub
 
 ### Changing the Bootstrap version to ensure CSS validation 
 
-I left my CSS validation right until the end and then realised the latest version of Bootstrap was not validating. I changed it to the newest version that would validate. This caused my "hamburger" dropdown icon to disappear. I fixed this by using a font awesome icon instead and styling it to look visually pleasing. Another issue that arose was that clicked links or ones that were hovered over were not appearing blue so I had to target the links correctly with the colour I wanted in my stylesheet.
+I left my CSS validation right until the end and then realised the latest version of Bootstrap was not validating. I changed it to the newest version that would validate. This caused my "hamburger" dropdown icon to disappear. I fixed this by using a font awesome icon instead and styling it to look visually pleasing. Another issue that arose was that clicked links or ones that were hovered over were appearing blue so I had to target the links correctly with the colour I wanted in my stylesheet.
 
 ### Git commit messages
 
@@ -155,7 +155,7 @@ Chrome extension identified that the starred writing at the bottom of the servic
 
 ## Functionality Testing 
 
-The following tests were completed on both a Windows laptop and an Android phone, primary tests on Chrome and then Firefox and edge were also tested. 
+The following tests were completed on both a Windows laptop and an Android phone, primary tests on Chrome and then Firefox and Microsoft Edge were also tested. 
 
 ### Tests
 
@@ -189,7 +189,7 @@ The following tests were completed on both a Windows laptop and an Android phone
 
 1. Current page is highlighted in nav bar
 
-The services nav link is highlight on the error page. Remove any active classes from error page.
+The services nav link is highlighted on the error page. Remove any active classes from error page.
 
 2. Services page "here" button takes you to contact page
 
