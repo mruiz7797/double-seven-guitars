@@ -375,19 +375,19 @@ I initially ran some lighthouse testing before finishing my project and decided 
 
 #### Home Page
 
-![Home page desktop lighthouse results](images/testing/lh-desktop-home.png)
+![Home page desktop lighthouse results](images/testing/lighthouse-desktop-home.png)
 
 #### Services Page
 
-![Services page lighthouse results](images/testing/lh-desktop-services.png)
+![Services page lighthouse results](images/testing/lighthouse-desktop-services.png)
 
 #### Contact Page 
 
-![First try contact lighthouse results](images/testing/lh-desktop-contact-1.png)
+![First try contact lighthouse results](images/testing/lighthouse-desktop-contact-1.png)
 
 I improved the accessibility and best practices by adding a title to my iframe and by adding autocomplete to two form inputs (although this didn't end improving the best practices result):
 
-![Second try contact lighthouse results](images/testing/lh-desktop-contact-2.png)
+![Second try contact lighthouse results](images/testing/lighthouse-desktop-contact-2.png)
 
 The best practice was not 100% because of an issue with third-party cookies from the maps. I tried to see if there was something I could do to rectify this but felt it was not within the scope of this course.
 
@@ -395,12 +395,12 @@ The best practice was not 100% because of an issue with third-party cookies from
 
 #### Home Page
 
-![Mobile home page lighthouse result](images/testing/lh-mobile-home.png)
+![Mobile home page lighthouse result](images/testing/lighthouse-mobile-home.png)
 
 #### Services Page
 
-![Mobile services page lighthouse result](images/testing/lh-mobile-services.png)
+![Mobile services page lighthouse result](images/testing/lighthouse-mobile-services.png)
 
 #### Contact Page
 
-![Mobile contact page lighthouse result](images/testing/lh-mobile-contact.png)
+![Mobile contact page lighthouse result](images/testing/lighthouse-mobile-contact.png)
